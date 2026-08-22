@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="科技树编辑器">
+  <title>科技树编辑器</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/editor.css">
+</head>
+<body class="editor-page">
+  <header class="masthead">
+    <a class="masthead__brand" href="index.html">科技树 / EDITOR</a>
+    <span class="masthead__status">草稿模式 · 确认前不会覆盖原版本</span>
+  </header>
+
+  <main class="editor-shell">
+    <section class="editor-toolbar">
+      <label class="field"><span>编辑军种</span><select id="branch-select"></select></label>
+      <label class="field"><span>查找节点</span><input id="node-search" type="search" placeholder="输入坦克名称"></label>
+      <div class="editor-actions">
+        <button id="add-node" class="button button--subtle" type="button">新增节点</button>
+        <button id="reset-draft" class="button button--subtle" type="button">恢复原版</button>
+        <button id="export-draft" class="button button--subtle" type="button">导出草稿</button>
+        <button id="commit-draft" class="button button--primary" type="button">确认并生成新版本</button>
+      </div>
+    </section>
+
+    <section class="editor-workspace">
+      <aside class="editor-panel editor-panel--list">
+        <h2>节点列表</h2>
+        <div id="node-list" class="node-list"></div>
+      </aside>
+
+      <section class="editor-panel editor-panel--form">
+        <h2>节点详情</h2>
+        <form id="node-form" class="node-form">
+          <input type="hidden" id="node-id">
+          <label class="field"><span>名称</span><input id="node-name" type="text"></label>
+          <label class="field"><span>Wiki 链接</span><input id="node-wiki" type="url"></label>
+          <p class="editor-hint">节点位置请直接在右侧预览中拖动。块的大小会根据名称自动调整。</p>
+          <div class="editor-actions"><button id="apply-node" class="button button--primary" type="submit">应用到草稿</button></div>
+        </form>
+
+        <section class="edge-editor">
+          <h3>连线编辑</h3>
+          <div class="edge-grid">
+            <label class="field"><span>起点</span><select id="edge-from"></select></label>
+            <label class="field"><span>终点</span><select id="edge-to"></select></label>
+          </div>
+          <div class="editor-actions"><button id="add-edge" class="button button--subtle" type="button">新增连线</button></div>
+          <div id="edge-list" class="edge-list"></div>
+        </section>
+      </section>
+
+      <section class="editor-panel editor-panel--preview">
+        <div class="preview-header">
+          <h2>预览</h2>
+          <div class="preview-controls">
+            <button id="preview-zoom-out" class="button button--subtle" type="button" aria-label="缩小预览">−</button>
+            <button id="preview-zoom-reset" class="button button--subtle" type="button">重置视图</button>
+            <button id="preview-zoom-in" class="button button--subtle" type="button" aria-label="放大预览">+</button>
+          </div>
+        </div>
+        <p class="editor-hint">滚轮或按钮缩放预览视图，拖动节点调整位置，拖动空白处移动视图。</p>
+        <svg id="editor-preview" class="editor-preview" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid meet" aria-label="科技树预览"><g id="preview-transform"></g></svg>
+      </section>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/editor.js"></script>
+</body>
+</html>
