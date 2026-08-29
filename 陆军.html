@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="陆军科技树总览">
+  <title>陆军研发总览 | 科技树</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="army-page">
+  <header class="masthead">
+    <a class="masthead__brand" href="index.html">科技树</a>
+    <span class="masthead__status">陆军研发总览</span>
+  </header>
+  <main class="army-shell">
+    <section class="army-toolbar" aria-label="研发树控制">
+      <label class="search-control" for="vehicle-search">搜索载具</label>
+      <input id="vehicle-search" type="search" placeholder="输入载具名称" autocomplete="off">
+      <span id="search-status" class="search-status" role="status" aria-live="polite"></span>
+      <div class="zoom-controls" aria-label="缩放控制">
+        <button id="zoom-in" class="button button--subtle" type="button" aria-label="放大研发树">放大</button>
+        <button id="zoom-out" class="button button--subtle" type="button" aria-label="缩小研发树">缩小</button>
+        <button id="reset-view" class="button button--subtle" type="button">重置视图</button>
+      </div>
+    </section>
+    <section class="marker-toolbar" aria-label="标记控制">
+      <button id="marker-toggle" class="button button--subtle marker-toggle" type="button" aria-pressed="false">开始标记</button>
+      <button id="marker-clear" class="button button--subtle marker-clear" type="button">一键删除标记</button>
+      <div id="marker-users" class="marker-users" role="group" aria-label="用户选择"></div>
+    </section>
+    <p id="graph-status" class="graph-status" role="status" aria-live="polite">拖动空白区域平移，滚轮缩放；选择载具可查看详情。</p>
+    <section class="research-viewport" aria-label="陆军研发树画布">
+      <svg id="research-canvas" role="region" aria-label="可交互的陆军研发树">
+        <defs>
+          <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#d7e2e9"></path>
+          </marker>
+        </defs>
+        <g id="research-layer"></g>
+      </svg>
+    </section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/army.js"></script>
+</body>
+</html>

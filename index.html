@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="军事科技研究树：探索海军、陆军与空军作战分支。">
+  <title>军事科技研究树</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <a class="masthead__brand" href="index.html" aria-label="军事科技研究树首页">军械档案 / TECH TREE</a>
+    <span class="masthead__status">系统在线 · 研究分支索引</span>
+  </header>
+
+  <main class="landing-page">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">作战单位研究档案</p>
+      <h1 id="page-title">选择研究分支</h1>
+      <p class="hero__lede">从现役装备到技术演进，进入对应战场的研究树。</p>
+    </section>
+
+    <section class="branch-grid" aria-label="研究分支">
+      <button class="branch-card branch-card--empty" type="button" data-branch="navy">
+        <span class="branch-card__index">01 / 海上战场</span>
+        <strong>海军</strong>
+        <span class="branch-card__detail">资料尚未录入</span>
+      </button>
+      <button class="branch-card branch-card--active" type="button" data-branch="army">
+        <span class="branch-card__index">02 / 地面战场</span>
+        <strong>陆军</strong>
+        <span class="branch-card__detail">122 个研究节点</span>
+      </button>
+      <button class="branch-card branch-card--empty" type="button" data-branch="air">
+        <span class="branch-card__index">03 / 空中战场</span>
+        <strong>空军</strong>
+        <span class="branch-card__detail">资料尚未录入</span>
+      </button>
+    </section>
+
+    <section class="editor-entry" aria-label="编辑器入口">
+      <a class="button button--primary" href="editor.html">打开科技树编辑器</a>
+    </section>
+  </main>
+
+  <dialog id="empty-state" class="empty-state" aria-labelledby="empty-state-title">
+    <div class="empty-state__panel">
+      <p class="eyebrow">档案状态 / PENDING</p>
+      <h2 id="empty-state-title"><span data-empty-name>该分支</span>资料尚未录入</h2>
+      <p>该研究分支正在整理中，请返回分支索引，或稍后再查看。</p>
+      <input class="button button--primary" type="button" value="关闭" aria-label="关闭提示" data-dialog-close>
+    </div>
+  </dialog>
+
+  <script src="js/home.js"></script>
+</body>
+</html>

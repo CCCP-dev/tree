@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="载具详情">
+  <title>载具详情 | 战争雷霆科技树</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="vehicle-page">
+  <header class="masthead">
+    <a class="masthead__brand" href="index.html">战争雷霆科技树</a>
+    <span class="masthead__status">载具详情</span>
+  </header>
+  <main class="vehicle-layout">
+    <nav class="vehicle-breadcrumb" aria-label="导航">
+      <a href="index.html">首页</a><span>/</span><a href="陆军.html">陆军研发总览</a><span>/</span><span>载具详情</span>
+    </nav>
+    <section id="vehicle-detail" class="vehicle-detail" aria-labelledby="vehicle-title">
+      <div class="vehicle-detail__header">
+        <div>
+          <p class="eyebrow">作战载具</p>
+          <h1 id="vehicle-title">载具详情</h1>
+        </div>
+      </div>
+      <div class="vehicle-detail__content">
+        <figure id="vehicle-media" class="vehicle-media" hidden>
+          <img id="vehicle-image" alt="" loading="lazy" decoding="async">
+        </figure>
+        <p class="wiki-url"><span id="wiki-url">正在读取 Wiki 链接...</span> <a id="wiki-link" class="button button--subtle wiki-link" href="#" hidden>打开 Wiki</a></p>
+      </div>
+      <div class="vehicle-detail__nav">
+        <a class="button button--primary" href="陆军.html">返回陆军研发总览</a>
+        <a class="button button--subtle" href="index.html">返回首页</a>
+      </div>
+    </section>
+    <section id="not-found" class="vehicle-detail" hidden>
+      <div class="vehicle-detail__header">
+        <div>
+          <p class="eyebrow">未找到</p>
+          <h1>载具未找到</h1>
+        </div>
+      </div>
+      <div class="vehicle-detail__content"><p id="not-found-message">未找到该载具，请返回研发总览后重新选择。</p></div>
+      <div class="vehicle-detail__nav">
+        <a class="button button--primary" href="陆军.html">返回陆军研发总览</a>
+        <a class="button button--subtle" href="index.html">返回首页</a>
+      </div>
+    </section>
+    <aside class="vehicle-links">
+      <section><h2>前置载具</h2><div id="previous-list" class="link-list"></div></section>
+      <section><h2>后续载具</h2><div id="next-list" class="link-list"></div></section>
+    </aside>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/vehicle-images.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/vehicle.js"></script>
+</body>
+</html>
