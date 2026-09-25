@@ -1,0 +1,11 @@
+.chrome-file-verify-profile/
+.chrome-verify-profile/
+.edge-verify-profile/
+.logs/
+tools/__pycache__/
+Dagor-Asset-Explorer-v1.0.0.zip
+_judge*.png
+dabuild-dbg
+real-xray-source/objects-real/
+real-xray-source/real-test/
+real-xray-source/real-test-composite/
