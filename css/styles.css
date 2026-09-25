@@ -216,8 +216,9 @@ body {
 .vehicle-detail__header { padding: clamp(1.5rem, 5vw, 3rem) clamp(1.5rem, 5vw, 3rem) 0; }
 .vehicle-detail__header h1 { margin: 0.4rem 0 1rem; font-size: clamp(2.1rem, 7vw, 4.3rem); line-height: 1.1; letter-spacing: 0.04em; overflow-wrap: anywhere; }
 .vehicle-detail__content { padding: 0 clamp(1.5rem, 5vw, 3rem); }
-.vehicle-media { margin: 0 0 1.25rem; padding: 0.9rem; border: 1px solid var(--color-border); background: rgb(3 9 19 / 58%); }
-.vehicle-media img { display: block; width: 100%; height: auto; border: 1px solid rgb(255 255 255 / 6%); }
+.vehicle-media { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 0.9rem; margin: 0 0 1.25rem; padding: 0.9rem; border: 1px solid var(--color-border); background: rgb(3 9 19 / 58%); }
+.vehicle-media__item { margin: 0; }
+.vehicle-media img { display: block; width: 100%; height: auto; border: 1px solid rgb(255 255 255 / 6%); background: rgb(0 0 0 / 18%); }
 .vehicle-detail__nav { display: flex; flex-wrap: wrap; gap: 0.7rem; padding: 0 clamp(1.5rem, 5vw, 3rem) clamp(1.5rem, 5vw, 3rem); }
 .vehicle-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
 .vehicle-links > section { min-width: 0; padding: 1.25rem; border: 1px solid var(--color-border); background: linear-gradient(145deg, rgb(32 58 80 / 88%), rgb(10 24 39 / 96%)); box-shadow: var(--shadow-panel); }
