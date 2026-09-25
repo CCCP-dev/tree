@@ -28,6 +28,7 @@
       container.append(empty);
       return;
     }
+
     for (const node of nodes) {
       const link = document.createElement('a');
       link.className = 'related-card';
@@ -37,26 +38,46 @@
     }
   }
 
-  function resolveImageSrc(node) {
-    const images = globalThis.WTVehicleImages || {};
-    return node && node.wikiUrl ? images[node.wikiUrl] || null : null;
+  function normalizeImagePath(value) {
+    const slash = String.fromCharCode(47);
+    let imagePath = String(value || '').trim().replace(/\\/g, slash);
+    while (imagePath.startsWith(slash)) imagePath = imagePath.slice(1);
+    return imagePath;
   }
 
-  function renderVehicleImage(elements, node) {
-    const imageSrc = resolveImageSrc(node);
-    if (!imageSrc) {
+  function resolveImageList(node) {
+    const fromNode = Array.isArray(node && node.images) ? node.images.map(normalizeImagePath).filter(Boolean) : [];
+    if (fromNode.length) return fromNode;
+    const images = globalThis.WTVehicleImages || {};
+    const fromMap = node && node.wikiUrl ? images[node.wikiUrl] : null;
+    return fromMap ? [normalizeImagePath(fromMap)] : [];
+  }
+
+  function renderVehicleImages(document, elements, node) {
+    if (!elements.media) return;
+    while (elements.media.firstChild) elements.media.removeChild(elements.media.firstChild);
+    const imageSources = resolveImageList(node);
+    if (!imageSources.length) {
       setHidden(elements.media, true);
-      if (elements.image) {
-        elements.image.removeAttribute('src');
-        elements.image.removeAttribute('alt');
-      }
       return;
     }
 
     const title = String(node.name || node.id || '载具');
-    elements.image.src = imageSrc;
-    elements.image.alt = `${title} 的 X-ray 俯视图`;
-    elements.image.title = title;
+    imageSources.forEach((imageSrc, index) => {
+      const figure = document.createElement('figure');
+      figure.className = 'vehicle-media__item';
+
+      const image = document.createElement('img');
+      image.src = imageSrc;
+      image.alt = `${title} 的第 ${index + 1} 张图片`;
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.title = title;
+
+      figure.append(image);
+      elements.media.append(figure);
+    });
+
     setHidden(elements.media, false);
   }
 
@@ -80,12 +101,11 @@
       wikiLink: document.querySelector('#wiki-link'),
       previous: document.querySelector('#previous-list'),
       next: document.querySelector('#next-list'),
-      media: document.querySelector('#vehicle-media'),
-      image: document.querySelector('#vehicle-image')
+      media: document.querySelector('#vehicle-media')
     };
 
     if (!elements.detail || !elements.notFound || !elements.title || !elements.wikiUrl || !elements.wikiLink || !elements.previous || !elements.next) {
-      showNotFound(document, elements, '载具详情页结构不完整，请返回研发总览后重试。');
+      showNotFound(document, elements, '加载失败：载具详情页结构不完整，请返回研发总览后重试。');
       return null;
     }
 
@@ -116,7 +136,7 @@
       setHidden(elements.wikiLink, true);
     }
 
-    renderVehicleImage(elements, model.node);
+    renderVehicleImages(document, elements, model.node);
     renderRelatedList(document, elements.previous, model.previous, core, EMPTY_PREVIOUS_MESSAGE);
     renderRelatedList(document, elements.next, model.next, core, EMPTY_NEXT_MESSAGE);
     return model;
