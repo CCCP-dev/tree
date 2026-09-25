@@ -7,7 +7,10 @@
 .editor-panel { padding: 16px; overflow: auto; min-height: 0; display: flex; flex-direction: column; }
 .field { display: grid; gap: 8px; }
 .field span, .editor-panel h2 { color: #a8b3c7; font-size: 14px; letter-spacing: .04em; text-transform: uppercase; }
-.field input, .field select { width: 100%; box-sizing: border-box; border-radius: 10px; border: 1px solid rgba(148, 163, 184, 0.2); background: #0c1016; color: #eef3fb; padding: 10px 12px; }
+.field input, .field select, .field textarea { width: 100%; box-sizing: border-box; border-radius: 10px; border: 1px solid rgba(148, 163, 184, 0.2); background: #0c1016; color: #eef3fb; padding: 10px 12px; }
+.field textarea { resize: vertical; min-height: 96px; font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: 12px; line-height: 1.5; }
+.button--danger { border-color: rgba(248, 113, 113, 0.52); color: #fecaca; }
+.button--danger:hover { border-color: rgba(248, 113, 113, 0.88); background: rgba(127, 29, 29, 0.36); }
 .editor-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .node-list { display: grid; gap: 8px; overflow: auto; padding-right: 4px; min-height: 0; flex: 1; }
 .node-item { padding: 10px 12px; border-radius: 12px; background: #0c1016; border: 1px solid rgba(148,163,184,.14); cursor: pointer; color: #f8fbff; font-weight: 600; text-shadow: 0 0 10px rgba(125, 211, 252, 0.16); }
@@ -15,6 +18,7 @@
 .node-item.is-active { border-color: #7dd3fc; background: rgba(125, 211, 252, 0.14); color: #dff6ff; }
 .node-form { display: grid; gap: 12px; }
 .editor-hint { margin: 0; color: #94a3b8; font-size: 13px; line-height: 1.5; }
+.editor-hint.is-active { color: #7dd3fc; }
 .edge-editor { margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(148, 163, 184, 0.16); display: grid; gap: 12px; }
 .edge-editor h3 { margin: 0; color: #c7d2e5; font-size: 14px; letter-spacing: .04em; text-transform: uppercase; }
 .edge-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -33,6 +37,7 @@
 .preview-edge.is-related { stroke: rgba(125, 211, 252, .95); }
 .preview-node { cursor: grab; }
 .preview-node.is-selected rect { stroke: #7dd3fc; stroke-width: 2; }
+.preview-node.is-edge-start rect { stroke: #fbbf24; stroke-width: 3; filter: drop-shadow(0 0 8px rgba(251, 191, 36, .45)); }
 .preview-node.is-new rect { fill: #4a1113; stroke: rgba(248, 113, 113, 0.85); }
 .preview-node.is-new text { fill: #ffecec; }
 .preview-node.is-new .node-note { fill: #ffb5b5; }
