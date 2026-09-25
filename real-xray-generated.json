@@ -1,0 +1,1876 @@
+[
+  {
+    "index": 1,
+    "id": "abqYLNdjsx092444",
+    "name": "rbt5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_rbt_5",
+    "aliases": [
+      "ussr_rbt_5"
+    ],
+    "asset": null,
+    "assetFile": null,
+    "hull": "rbt_5",
+    "xray": "rbt_5_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_rbt_5\\rbt_5_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_rbt_5\\rbt_5_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\001_ussr_rbt_5.jpg"
+  },
+  {
+    "index": 2,
+    "id": "AExHMyzEdT159816",
+    "name": "kv1（晚）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1_zis_5",
+    "aliases": [
+      "ussr_kv_1_zis_5"
+    ],
+    "asset": "ussr_kv_1_zis_5",
+    "assetFile": "ussr_kv_1_zis_5.grp",
+    "hull": "kv_1_zis_5",
+    "xray": "kv_1_zis_5_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1_zis_5\\kv_1_zis_5_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1_zis_5\\kv_1_zis_5_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\002_ussr_kv_1_zis_5.jpg"
+  },
+  {
+    "index": 3,
+    "id": "ajwAlWaPzA684030",
+    "name": "黑豹d",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_V_ausf_d_panther",
+    "aliases": [
+      "germ_pzkpfw_V_ausf_d_panther",
+      "germ_pzkpfw_v_ausf_d_panther"
+    ],
+    "asset": "germ_pzkpfw_v_ausf_d_panther",
+    "assetFile": "germ_pzkpfw_v_ausf_d_panther.grp",
+    "hull": "pzkpfw_V_ausf_d_panther",
+    "xray": "pzkpfw_V_ausf_d_panther_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_ausf_d_panther\\pzkpfw_V_ausf_d_panther_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_ausf_d_panther\\pzkpfw_V_ausf_d_panther_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\003_germ_pzkpfw_v_ausf_d_panther.jpg"
+  },
+  {
+    "index": 4,
+    "id": "AWddNDImhb058496",
+    "name": "zsu57-2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_zsu_57_2",
+    "aliases": [
+      "ussr_zsu_57_2"
+    ],
+    "asset": "ussr_zsu_57_2",
+    "assetFile": "ussr_zsu_57_2.grp",
+    "hull": "zsu_57_2",
+    "xray": "zsu_57_2_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_zsu_57_2\\zsu_57_2_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_zsu_57_2\\zsu_57_2_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\004_ussr_zsu_57_2.jpg"
+  },
+  {
+    "index": 6,
+    "id": "BJlXnaCKSt128391",
+    "name": "t72a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72a",
+    "aliases": [
+      "ussr_t_72a"
+    ],
+    "asset": "ussr_t_72a",
+    "assetFile": "ussr_t_72a.grp",
+    "hull": "t_72a",
+    "xray": "t_72a_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72a\\t_72a_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72a\\t_72a_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\006_ussr_t_72a.jpg"
+  },
+  {
+    "index": 7,
+    "id": "brjNaZNgSb518688",
+    "name": "kv1s",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1s",
+    "aliases": [
+      "ussr_kv_1s"
+    ],
+    "asset": "ussr_kv_1s",
+    "assetFile": "ussr_kv_1s.grp",
+    "hull": "kv_1s",
+    "xray": "kv_1s_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1s\\kv_1s_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1s\\kv_1s_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\007_ussr_kv_1s.jpg"
+  },
+  {
+    "index": 8,
+    "id": "bYmPFapkrd646150",
+    "name": "t72b3",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72b3_2011",
+    "aliases": [
+      "ussr_t_72b3_2011",
+      "ussr_t_72b3"
+    ],
+    "asset": "ussr_t_72b3",
+    "assetFile": "ussr_t_72b3.grp",
+    "hull": "t_72b3_2011",
+    "xray": "t_72b3_2011_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72b3\\t_72b3_2011_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72b3\\t_72b3_2011_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\008_ussr_t_72b3.jpg"
+  },
+  {
+    "index": 9,
+    "id": "CDPjxYUvrX349440",
+    "name": "kv2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_2_1939",
+    "aliases": [
+      "ussr_kv_2_1939",
+      "ussr_kv_2"
+    ],
+    "asset": "ussr_kv_2",
+    "assetFile": "ussr_kv_2.grp",
+    "hull": "kv_2_1940",
+    "xray": "kv_2_1940_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_2\\kv_2_1940_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_2\\kv_2_1940_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\009_ussr_kv_2.jpg"
+  },
+  {
+    "index": 10,
+    "id": "CDWjXWcKUJ862347",
+    "name": "t55",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_55a",
+    "aliases": [
+      "ussr_t_55a"
+    ],
+    "asset": "ussr_t_55a",
+    "assetFile": "ussr_t_55a.grp",
+    "hull": "t_55a",
+    "xray": "t_55a_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_55a\\t_55a_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_55a\\t_55a_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\010_ussr_t_55a.jpg"
+  },
+  {
+    "index": 11,
+    "id": "cIcbLxaVta921609",
+    "name": "突击虎",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_sturmmorser_sturmtiger",
+    "aliases": [
+      "germ_sturmmorser_sturmtiger"
+    ],
+    "asset": "germ_sturmmorser_sturmtiger",
+    "assetFile": "germ_sturmmorser_sturmtiger.grp",
+    "hull": "sturmmorser_sturmtiger",
+    "xray": "sturmmorser_sturmtiger_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_sturmmorser_sturmtiger\\sturmmorser_sturmtiger_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_sturmmorser_sturmtiger\\sturmmorser_sturmtiger_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\011_germ_sturmmorser_sturmtiger.jpg"
+  },
+  {
+    "index": 12,
+    "id": "CixxElobBz949463",
+    "name": "虎王（1-50）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIp",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_b_tiger_IIp",
+      "germ_pzkpfw_vi_ausf_b_tiger"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_b_tiger",
+    "assetFile": "germ_pzkpfw_vi_ausf_b_tiger.grp",
+    "hull": "pzkpfw_VI_ausf_B_tiger",
+    "xray": "pzkpfw_VI_ausf_B_tiger_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_b_tiger\\pzkpfw_VI_ausf_B_tiger_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_b_tiger\\pzkpfw_VI_ausf_B_tiger_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\012_germ_pzkpfw_vi_ausf_b_tiger.jpg"
+  },
+  {
+    "index": 13,
+    "id": "CQHQLlbCKz997321",
+    "name": "三号突击炮f",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_stug_III_ausf_F",
+    "aliases": [
+      "germ_stug_III_ausf_F",
+      "germ_stug_iii_ausf_f"
+    ],
+    "asset": "germ_stug_iii_ausf_f",
+    "assetFile": "germ_stug_iii_ausf_f.grp",
+    "hull": "stug_III_ausf_F",
+    "xray": "stug_III_ausf_F_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_stug_iii_ausf_f\\stug_III_ausf_F_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_stug_iii_ausf_f\\stug_III_ausf_F_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\013_germ_stug_iii_ausf_f.jpg"
+  },
+  {
+    "index": 14,
+    "id": "dHYxvCkOMH316211",
+    "name": "isu152",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_isu_152",
+    "aliases": [
+      "ussr_isu_152"
+    ],
+    "asset": "ussr_isu_152",
+    "assetFile": "ussr_isu_152.grp",
+    "hull": "isu_152",
+    "xray": "isu_152_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_isu_152\\isu_152_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_isu_152\\isu_152_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\014_ussr_isu_152.jpg"
+  },
+  {
+    "index": 15,
+    "id": "doycduRZVb149869",
+    "name": "t55am",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_55_am",
+    "aliases": [
+      "ussr_t_55_am",
+      "ussr_t_55am"
+    ],
+    "asset": "ussr_t_55am",
+    "assetFile": "ussr_t_55am.grp",
+    "hull": "t_55_am",
+    "xray": "t_55_am_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_55am\\t_55_am_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_55am\\t_55_am_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\015_ussr_t_55am.jpg"
+  },
+  {
+    "index": 16,
+    "id": "dUHlIXjWsg371124",
+    "name": "虎e（苏）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_e_tiger",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_e_tiger",
+      "germ_pzkpfw_vi_ausf_e_tiger"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_e_tiger",
+    "assetFile": "germ_pzkpfw_vi_ausf_e_tiger.grp",
+    "hull": "pzkpfw_VI_ausf_E_tiger",
+    "xray": "pzkpfw_VI_ausf_E_tiger_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_e_tiger\\pzkpfw_VI_ausf_E_tiger_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_e_tiger\\pzkpfw_VI_ausf_E_tiger_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\016_germ_pzkpfw_vi_ausf_e_tiger.jpg"
+  },
+  {
+    "index": 17,
+    "id": "DWeLMrILew632459",
+    "name": "m4a2（76）（苏）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_m4a2_76w_sherman",
+    "aliases": [
+      "ussr_m4a2_76w_sherman",
+      "usa_m4a2_sherman_1944"
+    ],
+    "asset": "usa_m4a2_sherman_1944",
+    "assetFile": "usa_m4a2_sherman_1944.grp",
+    "hull": "m4a2_sherman_1944",
+    "xray": "m4a2_sherman_1944_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a2_sherman_1944\\m4a2_sherman_1944_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a2_sherman_1944\\m4a2_sherman_1944_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\017_usa_m4a2_sherman_1944.jpg"
+  },
+  {
+    "index": 18,
+    "id": "dwODhyNoNQ837420",
+    "name": "isu122",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_isu_122",
+    "aliases": [
+      "ussr_isu_122",
+      "ussr_isu_152"
+    ],
+    "asset": "ussr_isu_152",
+    "assetFile": "ussr_isu_152.grp",
+    "hull": "isu_152",
+    "xray": "isu_152_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_isu_152\\isu_152_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_isu_152\\isu_152_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\018_ussr_isu_152.jpg"
+  },
+  {
+    "index": 19,
+    "id": "dYkSLfxWUN158140",
+    "name": "黑豹g",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_V_ausf_g_panther",
+    "aliases": [
+      "germ_pzkpfw_V_ausf_g_panther",
+      "germ_pzkpfw_v_ausf_g_panther"
+    ],
+    "asset": "germ_pzkpfw_v_ausf_g_panther",
+    "assetFile": "germ_pzkpfw_v_ausf_g_panther.grp",
+    "hull": "pzkpfw_V_ausf_g_panther",
+    "xray": "pzkpfw_V_ausf_g_panther_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_ausf_g_panther\\pzkpfw_V_ausf_g_panther_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_ausf_g_panther\\pzkpfw_V_ausf_g_panther_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\019_germ_pzkpfw_v_ausf_g_panther.jpg"
+  },
+  {
+    "index": 20,
+    "id": "EpQlXdSQcr400165",
+    "name": "kv1e",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1e",
+    "aliases": [
+      "ussr_kv_1e"
+    ],
+    "asset": "ussr_kv_1e",
+    "assetFile": "ussr_kv_1e.grp",
+    "hull": "kv_1e",
+    "xray": "kv_1e_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1e\\kv_1e_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1e\\kv_1e_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\020_ussr_kv_1e.jpg"
+  },
+  {
+    "index": 21,
+    "id": "eqbqICaCOr301752",
+    "name": "kv1e（德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_kv_1B_finland",
+    "aliases": [
+      "germ_kv_1B_finland"
+    ],
+    "asset": null,
+    "assetFile": null,
+    "hull": "kv_1e",
+    "xray": "kv_1e_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1e\\kv_1e_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1e\\kv_1e_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\021_ussr_kv_1e.jpg"
+  },
+  {
+    "index": 22,
+    "id": "EQLcHxEAXy265141",
+    "name": "m4a3e2（76）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a3e2_76w_sherman_jumbo",
+    "aliases": [
+      "us_m4a3e2_76w_sherman_jumbo",
+      "usa_m4a3e2_76w_sherman_jumbo",
+      "usa_m4a3e2_sherman_jumbo"
+    ],
+    "asset": "usa_m4a3e2_sherman_jumbo",
+    "assetFile": "usa_m4a3e2_sherman_jumbo.grp",
+    "hull": "m4a3e2_sherman_jumbo",
+    "xray": "m4a3e2_sherman_jumbo_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a3e2_sherman_jumbo\\m4a3e2_sherman_jumbo_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a3e2_sherman_jumbo\\m4a3e2_sherman_jumbo_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\022_usa_m4a3e2_sherman_jumbo.jpg"
+  },
+  {
+    "index": 23,
+    "id": "ERhRcqycEL241564",
+    "name": "kv1e（芬兰）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_kv_1B_finland",
+    "aliases": [
+      "germ_kv_1B_finland"
+    ],
+    "asset": null,
+    "assetFile": null,
+    "hull": "kv_1e",
+    "xray": "kv_1e_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1e\\kv_1e_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1e\\kv_1e_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\023_ussr_kv_1e.jpg"
+  },
+  {
+    "index": 24,
+    "id": "EVpBTfDmzZ476815",
+    "name": "bt7",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bt_7_1937",
+    "aliases": [
+      "ussr_bt_7_1937",
+      "ussr_bt_7"
+    ],
+    "asset": "ussr_bt_7",
+    "assetFile": "ussr_bt_7.grp",
+    "hull": "bt_7",
+    "xray": "bt_7_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bt_7\\bt_7_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bt_7\\bt_7_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\024_ussr_bt_7.jpg"
+  },
+  {
+    "index": 25,
+    "id": "ezjaVmqfBk166853",
+    "name": "t34-76(德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_t_34_747",
+    "aliases": [
+      "germ_t_34_747"
+    ],
+    "asset": "germ_t_34_747",
+    "assetFile": "germ_t_34_747.grp",
+    "hull": "t_34_747",
+    "xray": "t_34_747_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_t_34_747\\t_34_747_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_t_34_747\\t_34_747_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\025_germ_t_34_747.jpg"
+  },
+  {
+    "index": 26,
+    "id": "FAXwzMzZhz803796",
+    "name": "asu85",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_asu_85",
+    "aliases": [
+      "ussr_asu_85"
+    ],
+    "asset": "ussr_asu_85",
+    "assetFile": "ussr_asu_85.grp",
+    "hull": "asu_85",
+    "xray": "asu_85_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_asu_85\\asu_85_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_asu_85\\asu_85_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\026_ussr_asu_85.jpg"
+  },
+  {
+    "index": 27,
+    "id": "fBOjisHmiy607175",
+    "name": "plz05",
+    "wikiUrl": "https://wiki.warthunder.com/unit/cn_plz_05",
+    "aliases": [
+      "cn_plz_05"
+    ],
+    "asset": "cn_plz_05",
+    "assetFile": "cn_plz_05.grp",
+    "hull": "plz_05",
+    "xray": "plz_05_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\cn_plz_05\\plz_05_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\cn_plz_05\\plz_05_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\027_cn_plz_05.jpg"
+  },
+  {
+    "index": 28,
+    "id": "FfwkOUywUA568623",
+    "name": "m4",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4_sherman",
+    "aliases": [
+      "us_m4_sherman",
+      "usa_m4_sherman",
+      "usa_m4_sherman_late",
+      "usa_m4a1_sherman_1942"
+    ],
+    "asset": "usa_m4_sherman_late",
+    "assetFile": "usa_m4_sherman_late.grp",
+    "hull": "m4_sherman_late",
+    "xray": "m4_sherman_late_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4_sherman_late\\m4_sherman_late_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4_sherman_late\\m4_sherman_late_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\028_usa_m4_sherman_late.jpg"
+  },
+  {
+    "index": 29,
+    "id": "fMpCnbteuM210809",
+    "name": "豹2k",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2k",
+    "aliases": [
+      "germ_leopard_2k"
+    ],
+    "asset": "germ_leopard_2k",
+    "assetFile": "germ_leopard_2k.grp",
+    "hull": "leopard_2k",
+    "xray": "leopard_2k_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2k\\leopard_2k_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2k\\leopard_2k_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\029_germ_leopard_2k.jpg"
+  },
+  {
+    "index": 30,
+    "id": "fPutsrAqTN343132",
+    "name": "kv2(德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_kv_2_754r",
+    "aliases": [
+      "germ_kv_2_754r"
+    ],
+    "asset": null,
+    "assetFile": null,
+    "hull": "kv_2_1940",
+    "xray": "kv_2_1940_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_2\\kv_2_1940_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_2\\kv_2_1940_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\030_ussr_kv_2.jpg"
+  },
+  {
+    "index": 31,
+    "id": "fXGlOnWwhy794514",
+    "name": "t72b",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72b",
+    "aliases": [
+      "ussr_t_72b"
+    ],
+    "asset": "ussr_t_72b",
+    "assetFile": "ussr_t_72b.grp",
+    "hull": "t_72b",
+    "xray": "t_72b_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72b\\t_72b_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72b\\t_72b_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\031_ussr_t_72b.jpg"
+  },
+  {
+    "index": 32,
+    "id": "gaJZdFgLTf695150",
+    "name": "t80b",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_80b",
+    "aliases": [
+      "ussr_t_80b"
+    ],
+    "asset": "ussr_t_80b",
+    "assetFile": "ussr_t_80b.grp",
+    "hull": "t_80b",
+    "xray": "t_80b_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_80b\\t_80b_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_80b\\t_80b_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\032_ussr_t_80b.jpg"
+  },
+  {
+    "index": 33,
+    "id": "GBEzvSlZEf270511",
+    "name": "16式",
+    "wikiUrl": "https://wiki.warthunder.com/unit/jp_type_16_mcv_prot",
+    "aliases": [
+      "jp_type_16_mcv_prot",
+      "jp_type_16_mcv",
+      "jp_type_16"
+    ],
+    "asset": "jp_type_16_mcv",
+    "assetFile": "jp_type_16_mcv.grp",
+    "hull": "type_16_mcv",
+    "xray": "type_16_mcv_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\jp_type_16_mcv\\type_16_mcv_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\jp_type_16_mcv\\type_16_mcv_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\033_jp_type_16_mcv.jpg"
+  },
+  {
+    "index": 34,
+    "id": "gBMzjTDBaZ229541",
+    "name": "sd.Kfz234/4",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_sdkfz_234_4",
+    "aliases": [
+      "germ_sdkfz_234_4"
+    ],
+    "asset": "germ_sdkfz_234_4",
+    "assetFile": "germ_sdkfz_234_4.grp",
+    "hull": "sdkfz_234_4",
+    "xray": "sdkfz_234_4_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_sdkfz_234_4\\sdkfz_234_4_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_sdkfz_234_4\\sdkfz_234_4_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\034_germ_sdkfz_234_4.jpg"
+  },
+  {
+    "index": 35,
+    "id": "GgKPLteHtu306205",
+    "name": "黑豹II",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_panther_II",
+    "aliases": [
+      "germ_panther_II",
+      "germ_pzkpfw_v_panther_ii"
+    ],
+    "asset": "germ_pzkpfw_v_panther_ii",
+    "assetFile": "germ_pzkpfw_v_panther_ii.grp",
+    "hull": "pzkpfw_V_panther_II",
+    "xray": "pzkpfw_V_panther_II_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_panther_ii\\pzkpfw_V_panther_II_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_panther_ii\\pzkpfw_V_panther_II_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\035_germ_pzkpfw_v_panther_ii.jpg"
+  },
+  {
+    "index": 36,
+    "id": "gGQLPCPUWl902098",
+    "name": "kv1（德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1_L_11",
+    "aliases": [
+      "ussr_kv_1_L_11"
+    ],
+    "asset": null,
+    "assetFile": null,
+    "hull": "kv_1_L_11",
+    "xray": "kv_1_L_11_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1_l_11\\kv_1_L_11_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1_l_11\\kv_1_L_11_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\036_ussr_kv_1_l_11.jpg"
+  },
+  {
+    "index": 37,
+    "id": "gKmhipdBaS696303",
+    "name": "t34（1942）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_34_1942",
+    "aliases": [
+      "ussr_t_34_1942"
+    ],
+    "asset": "ussr_t_34_1942",
+    "assetFile": "ussr_t_34_1942.grp",
+    "hull": "t_34_1942",
+    "xray": "t_34_1942_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_1942\\t_34_1942_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_1942\\t_34_1942_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\037_ussr_t_34_1942.jpg"
+  },
+  {
+    "index": 38,
+    "id": "gQhrudtAZs935548",
+    "name": "t64b",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_64_b_1984",
+    "aliases": [
+      "ussr_t_64_b_1984",
+      "ussr_t_64_b"
+    ],
+    "asset": "ussr_t_64_b",
+    "assetFile": "ussr_t_64_b.grp",
+    "hull": "t_64_bv_1987",
+    "xray": "t_64_bv_1987_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_64_b\\t_64_bv_1987_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_64_b\\t_64_bv_1987_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\038_ussr_t_64_b.jpg"
+  },
+  {
+    "index": 39,
+    "id": "guijDXSWTf298463",
+    "name": "黑豹原型车",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_vk_3002m",
+    "aliases": [
+      "germ_vk_3002m"
+    ],
+    "asset": "germ_vk_3002m",
+    "assetFile": "germ_vk_3002m.grp",
+    "hull": "vk_3002m",
+    "xray": "vk_3002m_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_vk_3002m\\vk_3002m_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_vk_3002m\\vk_3002m_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\039_germ_vk_3002m.jpg"
+  },
+  {
+    "index": 40,
+    "id": "hKwbBctAwB126758",
+    "name": "bmp2m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bmp_2m",
+    "aliases": [
+      "ussr_bmp_2m"
+    ],
+    "asset": null,
+    "assetFile": null,
+    "hull": "bmp_2m",
+    "xray": "bmp_2m_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bmp_2m\\bmp_2m_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bmp_2m\\bmp_2m_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\040_ussr_bmp_2m.jpg"
+  },
+  {
+    "index": 41,
+    "id": "HTJwKMGQfp564722",
+    "name": "m1a2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1a2_abrams",
+    "aliases": [
+      "us_m1a2_abrams",
+      "usa_m1a2_abrams"
+    ],
+    "asset": "usa_m1a2_abrams",
+    "assetFile": "usa_m1a2_abrams.grp",
+    "hull": "m1a2_abrams",
+    "xray": "m1a2_abrams_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1a2_abrams\\m1a2_abrams_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1a2_abrams\\m1a2_abrams_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\041_usa_m1a2_abrams.jpg"
+  },
+  {
+    "index": 42,
+    "id": "iExggWIStn745984",
+    "name": "豹1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_I",
+    "aliases": [
+      "germ_leopard_I",
+      "germ_leopard_1"
+    ],
+    "asset": "germ_leopard_1",
+    "assetFile": "germ_leopard_1.grp",
+    "hull": "leopard_1",
+    "xray": "leopard_1_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_1\\leopard_1_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_1\\leopard_1_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\042_germ_leopard_1.jpg"
+  },
+  {
+    "index": 43,
+    "id": "IgoDOVtjny286147",
+    "name": "豹1a5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_1a5",
+    "aliases": [
+      "germ_leopard_1a5"
+    ],
+    "asset": "germ_leopard_1a5",
+    "assetFile": "germ_leopard_1a5.grp",
+    "hull": "leopard_1a5",
+    "xray": "leopard_1a5_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_1a5\\leopard_1a5_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_1a5\\leopard_1a5_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\043_germ_leopard_1a5.jpg"
+  },
+  {
+    "index": 44,
+    "id": "imLLNWJvCm745488",
+    "name": "t80u",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_80u",
+    "aliases": [
+      "ussr_t_80u"
+    ],
+    "asset": "ussr_t_80u",
+    "assetFile": "ussr_t_80u.grp",
+    "hull": "t_80u",
+    "xray": "t_80u_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_80u\\t_80u_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_80u\\t_80u_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\044_ussr_t_80u.jpg"
+  },
+  {
+    "index": 46,
+    "id": "iTpcUXDRTe953231",
+    "name": "豹2a7",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a7v",
+    "aliases": [
+      "germ_leopard_2a7v"
+    ],
+    "asset": "germ_leopard_2a7v",
+    "assetFile": "germ_leopard_2a7v.grp",
+    "hull": "leopard_2a7v",
+    "xray": "leopard_2a7v_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2a7v\\leopard_2a7v_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2a7v\\leopard_2a7v_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\046_germ_leopard_2a7v.jpg"
+  },
+  {
+    "index": 47,
+    "id": "IwnfLofTNV936851",
+    "name": "t80bvm",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_80bvm",
+    "aliases": [
+      "ussr_t_80bvm"
+    ],
+    "asset": "ussr_t_80bvm",
+    "assetFile": "ussr_t_80bvm.grp",
+    "hull": "t_80bvm",
+    "xray": "t_80bvm_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_80bvm\\t_80bvm_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_80bvm\\t_80bvm_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\047_ussr_t_80bvm.jpg"
+  },
+  {
+    "index": 48,
+    "id": "IYbjbUlQat694129",
+    "name": "kv1（早）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1_l_11",
+    "aliases": [
+      "ussr_kv_1_l_11"
+    ],
+    "asset": "ussr_kv_1_l_11",
+    "assetFile": "ussr_kv_1_l_11.grp",
+    "hull": "kv_1_L_11",
+    "xray": "kv_1_L_11_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1_l_11\\kv_1_L_11_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1_l_11\\kv_1_L_11_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\048_ussr_kv_1_l_11.jpg"
+  },
+  {
+    "index": 49,
+    "id": "jElsrLBWfk537760",
+    "name": "克伦威尔1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/uk_a27m_cromwell_1",
+    "aliases": [
+      "uk_a27m_cromwell_1"
+    ],
+    "asset": "uk_a27m_cromwell_1",
+    "assetFile": "uk_a27m_cromwell_1.grp",
+    "hull": "a27m_cromwell_1",
+    "xray": "a27m_cromwell_1_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\uk_a27m_cromwell_1\\a27m_cromwell_1_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\uk_a27m_cromwell_1\\a27m_cromwell_1_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\049_uk_a27m_cromwell_1.jpg"
+  },
+  {
+    "index": 51,
+    "id": "JRHqjYLfKH678477",
+    "name": "bmpt",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bmpt_72",
+    "aliases": [
+      "ussr_bmpt_72"
+    ],
+    "asset": "ussr_bmpt_72",
+    "assetFile": "ussr_bmpt_72.grp",
+    "hull": "bmpt_72",
+    "xray": "bmpt_72_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bmpt_72\\bmpt_72_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bmpt_72\\bmpt_72_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\051_ussr_bmpt_72.jpg"
+  },
+  {
+    "index": 52,
+    "id": "JwucNWZNeo521692",
+    "name": "t54",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_54_1951",
+    "aliases": [
+      "ussr_t_54_1951"
+    ],
+    "asset": "ussr_t_54_1951",
+    "assetFile": "ussr_t_54_1951.grp",
+    "hull": "t_54_1951",
+    "xray": "t_54_1951_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_54_1951\\t_54_1951_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_54_1951\\t_54_1951_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\052_ussr_t_54_1951.jpg"
+  },
+  {
+    "index": 53,
+    "id": "JXxEpEZYOt258630",
+    "name": "豹2a6",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a6",
+    "aliases": [
+      "germ_leopard_2a6"
+    ],
+    "asset": "germ_leopard_2a6",
+    "assetFile": "germ_leopard_2a6.grp",
+    "hull": "leopard_2a6",
+    "xray": "leopard_2a6_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2a6\\leopard_2a6_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2a6\\leopard_2a6_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\053_germ_leopard_2a6.jpg"
+  },
+  {
+    "index": 54,
+    "id": "kgOAmtIgiT622643",
+    "name": "bt7m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bt_7_m",
+    "aliases": [
+      "ussr_bt_7_m",
+      "ussr_bt_7m"
+    ],
+    "asset": "ussr_bt_7m",
+    "assetFile": "ussr_bt_7m.grp",
+    "hull": "bt_7m",
+    "xray": "bt_7m_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bt_7m\\bt_7m_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bt_7m\\bt_7m_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\054_ussr_bt_7m.jpg"
+  },
+  {
+    "index": 55,
+    "id": "KlUkpDHliB577918",
+    "name": "三号m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_M",
+    "aliases": [
+      "germ_pzkpfw_III_ausf_M",
+      "germ_pzkpfw_iii_ausf_m"
+    ],
+    "asset": "germ_pzkpfw_iii_ausf_m",
+    "assetFile": "germ_pzkpfw_iii_ausf_m.grp",
+    "hull": "pzkpfw_III_ausf_M",
+    "xray": "pzkpfw_III_ausf_M_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_iii_ausf_m\\pzkpfw_III_ausf_M_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_iii_ausf_m\\pzkpfw_III_ausf_M_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\055_germ_pzkpfw_iii_ausf_m.jpg"
+  },
+  {
+    "index": 56,
+    "id": "KluoZMAlmy467076",
+    "name": "豹2a4",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a4",
+    "aliases": [
+      "germ_leopard_2a4"
+    ],
+    "asset": "germ_leopard_2a4",
+    "assetFile": "germ_leopard_2a4.grp",
+    "hull": "leopard_2a4",
+    "xray": "leopard_2a4_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2a4\\leopard_2a4_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2a4\\leopard_2a4_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\056_germ_leopard_2a4.jpg"
+  },
+  {
+    "index": 57,
+    "id": "KSSXYDCgkl233806",
+    "name": "t34-85",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_34_85_zis_53",
+    "aliases": [
+      "ussr_t_34_85_zis_53"
+    ],
+    "asset": "ussr_t_34_85_zis_53",
+    "assetFile": "ussr_t_34_85_zis_53.grp",
+    "hull": "t_34_85_zis_53",
+    "xray": "t_34_85_zis_53_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_85_zis_53\\t_34_85_zis_53_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_85_zis_53\\t_34_85_zis_53_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\057_ussr_t_34_85_zis_53.jpg"
+  },
+  {
+    "index": 58,
+    "id": "KuSPOkxngG289743",
+    "name": "m4a3（105）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a3_105_sherman",
+    "aliases": [
+      "us_m4a3_105_sherman",
+      "usa_m4a3_105_sherman",
+      "usa_m4_sherman_late"
+    ],
+    "asset": "usa_m4_sherman_late",
+    "assetFile": "usa_m4_sherman_late.grp",
+    "hull": "m4_sherman_late",
+    "xray": "m4_sherman_late_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4_sherman_late\\m4_sherman_late_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4_sherman_late\\m4_sherman_late_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\058_usa_m4_sherman_late.jpg"
+  },
+  {
+    "index": 59,
+    "id": "lcffkQUwyf860113",
+    "name": "谢尔曼m4a2（德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a2_1944_germ",
+    "aliases": [
+      "us_m4a2_1944_germ",
+      "usa_m4a2_1944_germ",
+      "usa_m4a2_sherman_1944"
+    ],
+    "asset": "usa_m4a2_sherman_1944",
+    "assetFile": "usa_m4a2_sherman_1944.grp",
+    "hull": "m4a2_sherman_1944",
+    "xray": "m4a2_sherman_1944_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a2_sherman_1944\\m4a2_sherman_1944_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a2_sherman_1944\\m4a2_sherman_1944_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\059_usa_m4a2_sherman_1944.jpg"
+  },
+  {
+    "index": 60,
+    "id": "LeqcVhByUW581558",
+    "name": "黑豹g（苏）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_V_ausf_g_panther",
+    "aliases": [
+      "germ_pzkpfw_V_ausf_g_panther",
+      "germ_pzkpfw_v_ausf_g_panther"
+    ],
+    "asset": "germ_pzkpfw_v_ausf_g_panther",
+    "assetFile": "germ_pzkpfw_v_ausf_g_panther.grp",
+    "hull": "pzkpfw_V_ausf_g_panther",
+    "xray": "pzkpfw_V_ausf_g_panther_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_ausf_g_panther\\pzkpfw_V_ausf_g_panther_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_ausf_g_panther\\pzkpfw_V_ausf_g_panther_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\060_germ_pzkpfw_v_ausf_g_panther.jpg"
+  },
+  {
+    "index": 61,
+    "id": "lhJVnSXfcz712412",
+    "name": "虎王",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIh",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_b_tiger_IIh",
+      "germ_pzkpfw_vi_ausf_b_tiger_h"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_b_tiger_h",
+    "assetFile": "germ_pzkpfw_vi_ausf_b_tiger_h.grp",
+    "hull": "pzkpfw_VI_ausf_B_tiger_h",
+    "xray": "pzkpfw_VI_ausf_B_tiger_h_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_b_tiger_h\\pzkpfw_VI_ausf_B_tiger_h_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_b_tiger_h\\pzkpfw_VI_ausf_B_tiger_h_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\061_germ_pzkpfw_vi_ausf_b_tiger_h.jpg"
+  },
+  {
+    "index": 62,
+    "id": "MjbUgYjCFB224780",
+    "name": "t64a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_64a_1971",
+    "aliases": [
+      "ussr_t_64a_1971",
+      "ussr_t_64_a_1971"
+    ],
+    "asset": "ussr_t_64_a_1971",
+    "assetFile": "ussr_t_64_a_1971.grp",
+    "hull": "t_64_a_1971",
+    "xray": "t_64_a_1971_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_64_a_1971\\t_64_a_1971_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_64_a_1971\\t_64_a_1971_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\062_ussr_t_64_a_1971.jpg"
+  },
+  {
+    "index": 63,
+    "id": "MnqIRcALHM302735",
+    "name": "t54（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_54_1951",
+    "aliases": [
+      "ussr_t_54_1951"
+    ],
+    "asset": "ussr_t_54_1951",
+    "assetFile": "ussr_t_54_1951.grp",
+    "hull": "t_54_1951",
+    "xray": "t_54_1951_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_54_1951\\t_54_1951_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_54_1951\\t_54_1951_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\063_ussr_t_54_1951.jpg"
+  },
+  {
+    "index": 64,
+    "id": "MOQCHOaMgP151855",
+    "name": "t90m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_90m_2020",
+    "aliases": [
+      "ussr_t_90m_2020",
+      "ussr_t_90m"
+    ],
+    "asset": "ussr_t_90m",
+    "assetFile": "ussr_t_90m.grp",
+    "hull": "t_90m",
+    "xray": "t_90m_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_90m\\t_90m_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_90m\\t_90m_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\064_ussr_t_90m.jpg"
+  },
+  {
+    "index": 65,
+    "id": "ndLITUxqLz104280",
+    "name": "虎h1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_h1_tiger",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_h1_tiger",
+      "germ_pzkpfw_vi_ausf_h1_tiger"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_h1_tiger",
+    "assetFile": "germ_pzkpfw_vi_ausf_h1_tiger.grp",
+    "hull": "pzkpfw_VI_ausf_h1_tiger",
+    "xray": "pzkpfw_VI_ausf_h1_tiger_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_h1_tiger\\pzkpfw_VI_ausf_h1_tiger_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_h1_tiger\\pzkpfw_VI_ausf_h1_tiger_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\065_germ_pzkpfw_vi_ausf_h1_tiger.jpg"
+  },
+  {
+    "index": 66,
+    "id": "nfkUEAYqiL791402",
+    "name": "m1a2v2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1a2_sep2_abrams",
+    "aliases": [
+      "us_m1a2_sep2_abrams",
+      "usa_m1a2_sep2_abrams",
+      "usa_m1a2_sep2"
+    ],
+    "asset": "usa_m1a2_sep2",
+    "assetFile": "usa_m1a2_sep2.grp",
+    "hull": "m1a2_sep2",
+    "xray": "m1a2_sep2_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1a2_sep2\\m1a2_sep2_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1a2_sep2\\m1a2_sep2_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\066_usa_m1a2_sep2.jpg"
+  },
+  {
+    "index": 67,
+    "id": "ngahgHbRxQ816258",
+    "name": "su100",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_su_100_1945",
+    "aliases": [
+      "ussr_su_100_1945",
+      "ussr_su_100"
+    ],
+    "asset": "ussr_su_100",
+    "assetFile": "ussr_su_100.grp",
+    "hull": "su_100",
+    "xray": "su_100_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_su_100\\su_100_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_su_100\\su_100_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\067_ussr_su_100.jpg"
+  },
+  {
+    "index": 68,
+    "id": "nGUQhLXOJu474631",
+    "name": "豹2pos",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a5_pso",
+    "aliases": [
+      "germ_leopard_2a5_pso",
+      "germ_leopard_2_pso"
+    ],
+    "asset": "germ_leopard_2_pso",
+    "assetFile": "germ_leopard_2_pso.grp",
+    "hull": "leopard_2_pso",
+    "xray": "leopard_2_pso_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2_pso\\leopard_2_pso_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2_pso\\leopard_2_pso_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\068_germ_leopard_2_pso.jpg"
+  },
+  {
+    "index": 70,
+    "id": "nssnttVPUN893457",
+    "name": "is4m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_is_4m",
+    "aliases": [
+      "ussr_is_4m"
+    ],
+    "asset": "ussr_is_4m",
+    "assetFile": "ussr_is_4m.grp",
+    "hull": "is_4m",
+    "xray": "is_4m_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_is_4m\\is_4m_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_is_4m\\is_4m_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\070_ussr_is_4m.jpg"
+  },
+  {
+    "index": 71,
+    "id": "nXuCSCwQyE727763",
+    "name": "t55amd1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_55_amd_1",
+    "aliases": [
+      "ussr_t_55_amd_1",
+      "ussr_t_55amd_1"
+    ],
+    "asset": "ussr_t_55amd_1",
+    "assetFile": "ussr_t_55amd_1.grp",
+    "hull": "t_55amd_1",
+    "xray": "t_55amd_1_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_55amd_1\\t_55amd_1_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_55amd_1\\t_55amd_1_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\071_ussr_t_55amd_1.jpg"
+  },
+  {
+    "index": 72,
+    "id": "OdEnBJawqP133228",
+    "name": "bt5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bt_5",
+    "aliases": [
+      "ussr_bt_5"
+    ],
+    "asset": "ussr_bt_5",
+    "assetFile": "ussr_bt_5.grp",
+    "hull": "bt_5",
+    "xray": "bt_5_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bt_5\\bt_5_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bt_5\\bt_5_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\072_ussr_bt_5.jpg"
+  },
+  {
+    "index": 73,
+    "id": "OGTtnQYzMo639373",
+    "name": "t72（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72a",
+    "aliases": [
+      "ussr_t_72a"
+    ],
+    "asset": "ussr_t_72a",
+    "assetFile": "ussr_t_72a.grp",
+    "hull": "t_72a",
+    "xray": "t_72a_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72a\\t_72a_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72a\\t_72a_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\073_ussr_t_72a.jpg"
+  },
+  {
+    "index": 74,
+    "id": "OKSBXCzyBS806441",
+    "name": "m4a2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a2_sherman",
+    "aliases": [
+      "us_m4a2_sherman",
+      "usa_m4a2_sherman",
+      "usa_m4a2_sherman_1944"
+    ],
+    "asset": "usa_m4a2_sherman_1944",
+    "assetFile": "usa_m4a2_sherman_1944.grp",
+    "hull": "m4a2_sherman_1944",
+    "xray": "m4a2_sherman_1944_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a2_sherman_1944\\m4a2_sherman_1944_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a2_sherman_1944\\m4a2_sherman_1944_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\074_usa_m4a2_sherman_1944.jpg"
+  },
+  {
+    "index": 75,
+    "id": "OoiGmmLmYl504522",
+    "name": "t55（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_55a",
+    "aliases": [
+      "ussr_t_55a"
+    ],
+    "asset": "ussr_t_55a",
+    "assetFile": "ussr_t_55a.grp",
+    "hull": "t_55a",
+    "xray": "t_55a_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_55a\\t_55a_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_55a\\t_55a_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\075_ussr_t_55a.jpg"
+  },
+  {
+    "index": 76,
+    "id": "oOqUudJcZJ650231",
+    "name": "t90a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_90a",
+    "aliases": [
+      "ussr_t_90a"
+    ],
+    "asset": "ussr_t_90a",
+    "assetFile": "ussr_t_90a.grp",
+    "hull": "t_90a",
+    "xray": "t_90a_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_90a\\t_90a_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_90a\\t_90a_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\076_ussr_t_90a.jpg"
+  },
+  {
+    "index": 77,
+    "id": "PKaBSRuxhd903779",
+    "name": "t34-57",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_34_1941_57",
+    "aliases": [
+      "ussr_t_34_1941_57",
+      "ussr_t_34_1941"
+    ],
+    "asset": "ussr_t_34_1941",
+    "assetFile": "ussr_t_34_1941.grp",
+    "hull": "t_34_1941",
+    "xray": "t_34_1941_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_1941\\t_34_1941_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_1941\\t_34_1941_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\077_ussr_t_34_1941.jpg"
+  },
+  {
+    "index": 78,
+    "id": "PnHrcNoqSo560665",
+    "name": "m1hc",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1a1_hc_abrams",
+    "aliases": [
+      "us_m1a1_hc_abrams",
+      "usa_m1a1_hc_abrams"
+    ],
+    "asset": "usa_m1a1_hc_abrams",
+    "assetFile": "usa_m1a1_hc_abrams.grp",
+    "hull": "m1a1_hc_abrams",
+    "xray": "m1a1_hc_abrams_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1a1_hc_abrams\\m1a1_hc_abrams_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1a1_hc_abrams\\m1a1_hc_abrams_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\078_usa_m1a1_hc_abrams.jpg"
+  },
+  {
+    "index": 79,
+    "id": "PqiZcFHptx855200",
+    "name": "m4a1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a1_1942_sherman",
+    "aliases": [
+      "us_m4a1_1942_sherman",
+      "usa_m4a1_1942_sherman",
+      "usa_m4a1_sherman_1942"
+    ],
+    "asset": "usa_m4a1_sherman_1942",
+    "assetFile": "usa_m4a1_sherman_1942.grp",
+    "hull": "m4a1_sherman_1942",
+    "xray": "m4a1_sherman_1942_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a1_sherman_1942\\m4a1_sherman_1942_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a1_sherman_1942\\m4a1_sherman_1942_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\079_usa_m4a1_sherman_1942.jpg"
+  },
+  {
+    "index": 80,
+    "id": "PQQsDrQLkZ488978",
+    "name": "三号f",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_F",
+    "aliases": [
+      "germ_pzkpfw_III_ausf_F",
+      "germ_pzkpfw_iii_ausf_f"
+    ],
+    "asset": "germ_pzkpfw_iii_ausf_f",
+    "assetFile": "germ_pzkpfw_iii_ausf_f.grp",
+    "hull": "pzkpfw_III_ausf_F",
+    "xray": "pzkpfw_III_ausf_F_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_iii_ausf_f\\pzkpfw_III_ausf_F_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_iii_ausf_f\\pzkpfw_III_ausf_F_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\080_germ_pzkpfw_iii_ausf_f.jpg"
+  },
+  {
+    "index": 81,
+    "id": "PVlrNGBpFE322432",
+    "name": "t72m1（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_kpz_t72m1",
+    "aliases": [
+      "germ_kpz_t72m1"
+    ],
+    "asset": "germ_kpz_t72m1",
+    "assetFile": "germ_kpz_t72m1.grp",
+    "hull": "kpz_t72m1",
+    "xray": "kpz_t72m1_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_kpz_t72m1\\kpz_t72m1_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_kpz_t72m1\\kpz_t72m1_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\081_germ_kpz_t72m1.jpg"
+  },
+  {
+    "index": 83,
+    "id": "qJiZbKbAVt626480",
+    "name": "sd.kfz234/2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_sdkfz_234_2",
+    "aliases": [
+      "germ_sdkfz_234_2"
+    ],
+    "asset": null,
+    "assetFile": null,
+    "hull": "sdkfz_234_2",
+    "xray": "sdkfz_234_2_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_sdkfz_234_2\\sdkfz_234_2_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_sdkfz_234_2\\sdkfz_234_2_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\083_germ_sdkfz_234_2.jpg"
+  },
+  {
+    "index": 84,
+    "id": "QmhmNeEMQv525029",
+    "name": "T34-88炮：虎h1\n车身：t34-85",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null,
+    "hull": "t_34_85_zis_53",
+    "xray": "t_34_85_zis_53_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_85_zis_53\\t_34_85_zis_53_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_85_zis_53\\t_34_85_zis_53_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\084_ussr_t_34_85_zis_53.jpg"
+  },
+  {
+    "index": 85,
+    "id": "RBXuIALEdk513273",
+    "name": "t64a（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_64a_1971",
+    "aliases": [
+      "ussr_t_64a_1971",
+      "ussr_t_64_a_1971"
+    ],
+    "asset": "ussr_t_64_a_1971",
+    "assetFile": "ussr_t_64_a_1971.grp",
+    "hull": "t_64_a_1971",
+    "xray": "t_64_a_1971_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_64_a_1971\\t_64_a_1971_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_64_a_1971\\t_64_a_1971_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\085_ussr_t_64_a_1971.jpg"
+  },
+  {
+    "index": 86,
+    "id": "rcfDZmwsdv207296",
+    "name": "克利安",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_flakpanzer_v_coelian",
+    "aliases": [
+      "germ_flakpanzer_v_coelian",
+      "germ_flpz_v_coelian"
+    ],
+    "asset": null,
+    "assetFile": null,
+    "hull": "flpz_IV_Kugelblitz",
+    "xray": "flpz_IV_Kugelblitz_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_flpz_iv_kugelblitz\\flpz_IV_Kugelblitz_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_flpz_iv_kugelblitz\\flpz_IV_Kugelblitz_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\086_germ_flpz_iv_kugelblitz.jpg"
+  },
+  {
+    "index": 87,
+    "id": "ReuLbiuWzO136123",
+    "name": "m1a1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1a1_abrams",
+    "aliases": [
+      "us_m1a1_abrams",
+      "usa_m1a1_abrams"
+    ],
+    "asset": "usa_m1a1_abrams",
+    "assetFile": "usa_m1a1_abrams.grp",
+    "hull": "m1a1_abrams",
+    "xray": "m1a1_abrams_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1a1_abrams\\m1a1_abrams_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1a1_abrams\\m1a1_abrams_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\087_usa_m1a1_abrams.jpg"
+  },
+  {
+    "index": 89,
+    "id": "RTBLKPuAUU067975",
+    "name": "kv2（1940）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_2_1940",
+    "aliases": [
+      "ussr_kv_2_1940",
+      "ussr_kv_2"
+    ],
+    "asset": "ussr_kv_2",
+    "assetFile": "ussr_kv_2.grp",
+    "hull": "kv_2_1940",
+    "xray": "kv_2_1940_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_2\\kv_2_1940_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_2\\kv_2_1940_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\089_ussr_kv_2.jpg"
+  },
+  {
+    "index": 90,
+    "id": "rtFmlVRGOf199561",
+    "name": "59d",
+    "wikiUrl": "https://wiki.warthunder.com/unit/cn_type_59d",
+    "aliases": [
+      "cn_type_59d"
+    ],
+    "asset": "cn_type_59d",
+    "assetFile": "cn_type_59d.grp",
+    "hull": "type_59d",
+    "xray": "type_59d_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\cn_type_59d\\type_59d_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\cn_type_59d\\type_59d_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\090_cn_type_59d.jpg"
+  },
+  {
+    "index": 91,
+    "id": "rtGOzcNphw524407",
+    "name": "豹1a1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_i_a1",
+    "aliases": [
+      "germ_leopard_i_a1",
+      "germ_leopard_1_a1"
+    ],
+    "asset": "germ_leopard_1_a1",
+    "assetFile": "germ_leopard_1_a1.grp",
+    "hull": "leopard_1_a1",
+    "xray": "leopard_1_a1_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_1_a1\\leopard_1_a1_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_1_a1\\leopard_1_a1_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\091_germ_leopard_1_a1.jpg"
+  },
+  {
+    "index": 92,
+    "id": "RVrxqeDpow620893",
+    "name": "su122",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_su_122",
+    "aliases": [
+      "ussr_su_122"
+    ],
+    "asset": "ussr_su_122",
+    "assetFile": "ussr_su_122.grp",
+    "hull": "su_122",
+    "xray": "su_122_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_su_122\\su_122_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_su_122\\su_122_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\092_ussr_su_122.jpg"
+  },
+  {
+    "index": 93,
+    "id": "rvTkJBmAAG276460",
+    "name": "strv103a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/sw_strv_103a",
+    "aliases": [
+      "sw_strv_103a",
+      "se_strv_103_0",
+      "se_strv_103"
+    ],
+    "asset": "se_strv_103_0",
+    "assetFile": "se_strv_103_0.grp",
+    "hull": "strv_103_0",
+    "xray": "strv_103_0_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\se_strv_103_0\\strv_103_0_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\se_strv_103_0\\strv_103_0_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\093_se_strv_103_0.jpg"
+  },
+  {
+    "index": 94,
+    "id": "SlvgixiyvB010572",
+    "name": "三号e",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_E",
+    "aliases": [
+      "germ_pzkpfw_III_ausf_E",
+      "germ_pzkpfw_iii_ausf_e"
+    ],
+    "asset": "germ_pzkpfw_iii_ausf_e",
+    "assetFile": "germ_pzkpfw_iii_ausf_e.grp",
+    "hull": "pzkpfw_III_ausf_E",
+    "xray": "pzkpfw_III_ausf_E_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_iii_ausf_e\\pzkpfw_III_ausf_E_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_iii_ausf_e\\pzkpfw_III_ausf_E_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\094_germ_pzkpfw_iii_ausf_e.jpg"
+  },
+  {
+    "index": 95,
+    "id": "sPJQoFNndh535734",
+    "name": "虎e",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_e_tiger",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_e_tiger",
+      "germ_pzkpfw_vi_ausf_e_tiger"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_e_tiger",
+    "assetFile": "germ_pzkpfw_vi_ausf_e_tiger.grp",
+    "hull": "pzkpfw_VI_ausf_E_tiger",
+    "xray": "pzkpfw_VI_ausf_E_tiger_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_e_tiger\\pzkpfw_VI_ausf_E_tiger_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_vi_ausf_e_tiger\\pzkpfw_VI_ausf_E_tiger_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\095_germ_pzkpfw_vi_ausf_e_tiger.jpg"
+  },
+  {
+    "index": 96,
+    "id": "srXRvpiwgY898366",
+    "name": "t72b（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72b",
+    "aliases": [
+      "ussr_t_72b"
+    ],
+    "asset": "ussr_t_72b",
+    "assetFile": "ussr_t_72b.grp",
+    "hull": "t_72b",
+    "xray": "t_72b_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72b\\t_72b_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72b\\t_72b_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\096_ussr_t_72b.jpg"
+  },
+  {
+    "index": 97,
+    "id": "sSgPHOQKPV590433",
+    "name": "m4a2（76）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a2_76w_sherman",
+    "aliases": [
+      "us_m4a2_76w_sherman",
+      "usa_m4a2_76w_sherman",
+      "usa_m4a2_sherman_1944"
+    ],
+    "asset": "usa_m4a2_sherman_1944",
+    "assetFile": "usa_m4a2_sherman_1944.grp",
+    "hull": "m4a2_sherman_1944",
+    "xray": "m4a2_sherman_1944_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a2_sherman_1944\\m4a2_sherman_1944_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a2_sherman_1944\\m4a2_sherman_1944_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\097_usa_m4a2_sherman_1944.jpg"
+  },
+  {
+    "index": 100,
+    "id": "SZIDTxDSlM881951",
+    "name": "m4a3e2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a3e2_sherman_jumbo",
+    "aliases": [
+      "us_m4a3e2_sherman_jumbo",
+      "usa_m4a3e2_sherman_jumbo"
+    ],
+    "asset": "usa_m4a3e2_sherman_jumbo",
+    "assetFile": "usa_m4a3e2_sherman_jumbo.grp",
+    "hull": "m4a3e2_sherman_jumbo",
+    "xray": "m4a3e2_sherman_jumbo_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a3e2_sherman_jumbo\\m4a3e2_sherman_jumbo_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a3e2_sherman_jumbo\\m4a3e2_sherman_jumbo_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\100_usa_m4a3e2_sherman_jumbo.jpg"
+  },
+  {
+    "index": 101,
+    "id": "tvuCFbSTya926111",
+    "name": "t34（1941）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_34_1941",
+    "aliases": [
+      "ussr_t_34_1941"
+    ],
+    "asset": "ussr_t_34_1941",
+    "assetFile": "ussr_t_34_1941.grp",
+    "hull": "t_34_1941",
+    "xray": "t_34_1941_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_1941\\t_34_1941_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_34_1941\\t_34_1941_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\101_ussr_t_34_1941.jpg"
+  },
+  {
+    "index": 102,
+    "id": "TWLdpaMMHq886489",
+    "name": "三号突击炮G",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_stug_III_ausf_G",
+    "aliases": [
+      "germ_stug_III_ausf_G",
+      "germ_stug_40_ausf_g",
+      "germ_stug_iii_ausf_g"
+    ],
+    "asset": "germ_stug_40_ausf_g",
+    "assetFile": "germ_stug_40_ausf_g.grp",
+    "hull": "stug_40_ausf_G",
+    "xray": "stug_40_ausf_G_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_stug_40_ausf_g\\stug_40_ausf_G_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_stug_40_ausf_g\\stug_40_ausf_G_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\102_germ_stug_40_ausf_g.jpg"
+  },
+  {
+    "index": 103,
+    "id": "UvekLsNqCV426934",
+    "name": "鼠式",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_Maus",
+    "aliases": [
+      "germ_pzkpfw_Maus",
+      "germ_pzkpfw_viii_maus"
+    ],
+    "asset": "germ_pzkpfw_viii_maus",
+    "assetFile": "germ_pzkpfw_viii_maus.grp",
+    "hull": "pzkpfw_VIII_maus",
+    "xray": "pzkpfw_VIII_maus_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_viii_maus\\pzkpfw_VIII_maus_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_viii_maus\\pzkpfw_VIII_maus_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\103_germ_pzkpfw_viii_maus.jpg"
+  },
+  {
+    "index": 104,
+    "id": "UyvCcpznjr327597",
+    "name": "t80um2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_80um2",
+    "aliases": [
+      "ussr_t_80um2"
+    ],
+    "asset": "ussr_t_80um2",
+    "assetFile": "ussr_t_80um2.grp",
+    "hull": "t_80um2",
+    "xray": "t_80um2_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_80um2\\t_80um2_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_80um2\\t_80um2_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\104_ussr_t_80um2.jpg"
+  },
+  {
+    "index": 105,
+    "id": "VAADidrBpH912234",
+    "name": "t72b3a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72b3_arena_m",
+    "aliases": [
+      "ussr_t_72b3_arena_m",
+      "ussr_t_72b3_arena"
+    ],
+    "asset": "ussr_t_72b3_arena",
+    "assetFile": "ussr_t_72b3_arena.grp",
+    "hull": "t_72b3_arena",
+    "xray": "t_72b3_arena_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72b3_arena\\t_72b3_arena_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_72b3_arena\\t_72b3_arena_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\105_ussr_t_72b3_arena.jpg"
+  },
+  {
+    "index": 106,
+    "id": "vHKaJtcvcr391587",
+    "name": "m1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1_abrams",
+    "aliases": [
+      "us_m1_abrams",
+      "usa_m1_abrams"
+    ],
+    "asset": "usa_m1_abrams",
+    "assetFile": "usa_m1_abrams.grp",
+    "hull": "m1_abrams",
+    "xray": "m1_abrams_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1_abrams\\m1_abrams_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1_abrams\\m1_abrams_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\106_usa_m1_abrams.jpg"
+  },
+  {
+    "index": 107,
+    "id": "VHWAeCByUK304876",
+    "name": "m4a3（76",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a3e8_76w_sherman",
+    "aliases": [
+      "us_m4a3e8_76w_sherman",
+      "usa_m4a3e8_76w_sherman"
+    ],
+    "asset": "usa_m4a3e8_76w_sherman",
+    "assetFile": "usa_m4a3e8_76w_sherman.grp",
+    "hull": "m4a3e8_76w_sherman",
+    "xray": "m4a3e8_76w_sherman_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a3e8_76w_sherman\\m4a3e8_76w_sherman_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a3e8_76w_sherman\\m4a3e8_76w_sherman_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\107_usa_m4a3e8_76w_sherman.jpg"
+  },
+  {
+    "index": 108,
+    "id": "vulVSejOyb162250",
+    "name": "bmp2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bmp_2",
+    "aliases": [
+      "ussr_bmp_2"
+    ],
+    "asset": "ussr_bmp_2",
+    "assetFile": "ussr_bmp_2.grp",
+    "hull": "bmp_2",
+    "xray": "bmp_2_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bmp_2\\bmp_2_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_bmp_2\\bmp_2_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\108_ussr_bmp_2.jpg"
+  },
+  {
+    "index": 109,
+    "id": "wcjkttFzTB342705",
+    "name": "is3",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_is_3",
+    "aliases": [
+      "ussr_is_3"
+    ],
+    "asset": "ussr_is_3",
+    "assetFile": "ussr_is_3.grp",
+    "hull": "is_3",
+    "xray": "is_3_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_is_3\\is_3_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_is_3\\is_3_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\109_ussr_is_3.jpg"
+  },
+  {
+    "index": 110,
+    "id": "wdfapCueWV829610",
+    "name": "豹2a5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a5",
+    "aliases": [
+      "germ_leopard_2a5"
+    ],
+    "asset": "germ_leopard_2a5",
+    "assetFile": "germ_leopard_2a5.grp",
+    "hull": "leopard_2a5",
+    "xray": "leopard_2a5_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2a5\\leopard_2a5_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_leopard_2a5\\leopard_2a5_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\110_germ_leopard_2a5.jpg"
+  },
+  {
+    "index": 111,
+    "id": "WFwUIlqAbJ933903",
+    "name": "猎豹",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_panzerjager_panther",
+    "aliases": [
+      "germ_panzerjager_panther"
+    ],
+    "asset": "germ_panzerjager_panther",
+    "assetFile": "germ_panzerjager_panther.grp",
+    "hull": "panzerjager_panther",
+    "xray": "panzerjager_panther_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_panzerjager_panther\\panzerjager_panther_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_panzerjager_panther\\panzerjager_panther_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\111_germ_panzerjager_panther.jpg"
+  },
+  {
+    "index": 113,
+    "id": "WlydbvnfBE486703",
+    "name": "克伦威尔5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/uk_a27m_cromwell_5",
+    "aliases": [
+      "uk_a27m_cromwell_5"
+    ],
+    "asset": "uk_a27m_cromwell_5",
+    "assetFile": "uk_a27m_cromwell_5.grp",
+    "hull": "a27m_cromwell_5",
+    "xray": "a27m_cromwell_5_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\uk_a27m_cromwell_5\\a27m_cromwell_5_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\uk_a27m_cromwell_5\\a27m_cromwell_5_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\113_uk_a27m_cromwell_5.jpg"
+  },
+  {
+    "index": 114,
+    "id": "wpYQQtAqrO665861",
+    "name": "kv1（芬兰）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1_L_11",
+    "aliases": [
+      "ussr_kv_1_L_11"
+    ],
+    "asset": null,
+    "assetFile": null,
+    "hull": "kv_1_L_11",
+    "xray": "kv_1_L_11_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1_l_11\\kv_1_L_11_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_kv_1_l_11\\kv_1_L_11_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\114_ussr_kv_1_l_11.jpg"
+  },
+  {
+    "index": 115,
+    "id": "wVMVINEdoM169164",
+    "name": "m4a1（76）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a1_76w_sherman",
+    "aliases": [
+      "us_m4a1_76w_sherman",
+      "usa_m4a1_76w_sherman"
+    ],
+    "asset": "usa_m4a1_76w_sherman",
+    "assetFile": "usa_m4a1_76w_sherman.grp",
+    "hull": "m4a1_76w_sherman",
+    "xray": "m4a1_76w_sherman_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a1_76w_sherman\\m4a1_76w_sherman_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m4a1_76w_sherman\\m4a1_76w_sherman_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\115_usa_m4a1_76w_sherman.jpg"
+  },
+  {
+    "index": 116,
+    "id": "xARwPMaVpD143631",
+    "name": "sd.Kfz234/3",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_sdkfz_234_3",
+    "aliases": [
+      "germ_sdkfz_234_3"
+    ],
+    "asset": "germ_sdkfz_234_3",
+    "assetFile": "germ_sdkfz_234_3.grp",
+    "hull": "sdkfz_234_3",
+    "xray": "sdkfz_234_3_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_sdkfz_234_3\\sdkfz_234_3_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_sdkfz_234_3\\sdkfz_234_3_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\116_germ_sdkfz_234_3.jpg"
+  },
+  {
+    "index": 117,
+    "id": "YnAsyvfNJL206928",
+    "name": "黑豹f",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_V_ausf_f_panther",
+    "aliases": [
+      "germ_pzkpfw_V_ausf_f_panther",
+      "germ_pzkpfw_v_ausf_g_panther"
+    ],
+    "asset": "germ_pzkpfw_v_ausf_g_panther",
+    "assetFile": "germ_pzkpfw_v_ausf_g_panther.grp",
+    "hull": "pzkpfw_V_ausf_g_panther",
+    "xray": "pzkpfw_V_ausf_g_panther_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_ausf_g_panther\\pzkpfw_V_ausf_g_panther_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_pzkpfw_v_ausf_g_panther\\pzkpfw_V_ausf_g_panther_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\117_germ_pzkpfw_v_ausf_g_panther.jpg"
+  },
+  {
+    "index": 118,
+    "id": "ySTeREVxrG012140",
+    "name": "m1128",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1128_mgs",
+    "aliases": [
+      "us_m1128_mgs",
+      "usa_m1128_mgs"
+    ],
+    "asset": "usa_m1128_mgs",
+    "assetFile": "usa_m1128_mgs.grp",
+    "hull": "m1128_mgs",
+    "xray": "m1128_mgs_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1128_mgs\\m1128_mgs_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\usa_m1128_mgs\\m1128_mgs_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\118_usa_m1128_mgs.jpg"
+  },
+  {
+    "index": 119,
+    "id": "zAhuzOWTZx038235",
+    "name": "strv103c",
+    "wikiUrl": "https://wiki.warthunder.com/unit/sw_strv_103c",
+    "aliases": [
+      "sw_strv_103c",
+      "se_strv_103"
+    ],
+    "asset": "se_strv_103",
+    "assetFile": "se_strv_103.grp",
+    "hull": "strv_103a",
+    "xray": "strv_103a_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\se_strv_103\\strv_103a_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\se_strv_103\\strv_103a_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\119_se_strv_103.jpg"
+  },
+  {
+    "index": 120,
+    "id": "ZnJCDaDRDg491760",
+    "name": "t50",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_50",
+    "aliases": [
+      "ussr_t_50"
+    ],
+    "asset": "ussr_t_50",
+    "assetFile": "ussr_t_50.grp",
+    "hull": "t_50",
+    "xray": "t_50_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_50\\t_50_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\ussr_t_50\\t_50_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\120_ussr_t_50.jpg"
+  },
+  {
+    "index": 122,
+    "id": "ZRMhsOYNgq055960",
+    "name": "三号突击炮短管",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_stug_III_ausf_A",
+    "aliases": [
+      "germ_stug_III_ausf_A",
+      "germ_stug_iii_ausf_a"
+    ],
+    "asset": "germ_stug_iii_ausf_a",
+    "assetFile": "germ_stug_iii_ausf_a.grp",
+    "hull": "stug_III_ausf_A",
+    "xray": "stug_III_ausf_A_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_stug_iii_ausf_a\\stug_III_ausf_A_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_stug_iii_ausf_a\\stug_III_ausf_A_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\122_germ_stug_iii_ausf_a.jpg"
+  },
+  {
+    "index": 123,
+    "id": "new_node",
+    "name": "胡蜂",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_panzerjager_nashorn",
+    "aliases": [
+      "germ_panzerjager_nashorn"
+    ],
+    "asset": "germ_panzerjager_nashorn",
+    "assetFile": "germ_panzerjager_nashorn.grp",
+    "hull": "panzerjager_nashorn",
+    "xray": "panzerjager_nashorn_xray",
+    "hullObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_panzerjager_nashorn\\panzerjager_nashorn_0.obj",
+    "xrayObj": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\objects-real\\germ_panzerjager_nashorn\\panzerjager_nashorn_xray_0.obj",
+    "image": "C:\\Users\\启元\\Desktop\\wartree-x-ray\\images-real\\123_germ_panzerjager_nashorn.jpg"
+  }
+]
