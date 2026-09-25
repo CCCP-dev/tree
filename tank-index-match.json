@@ -1,0 +1,1401 @@
+[
+  {
+    "index": 1,
+    "id": "abqYLNdjsx092444",
+    "name": "rbt5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_rbt_5",
+    "aliases": [
+      "ussr_rbt_5"
+    ],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 2,
+    "id": "AExHMyzEdT159816",
+    "name": "kv1（晚）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1_zis_5",
+    "aliases": [
+      "ussr_kv_1_zis_5"
+    ],
+    "asset": "ussr_kv_1_zis_5",
+    "assetFile": "ussr_kv_1_zis_5.grp"
+  },
+  {
+    "index": 3,
+    "id": "ajwAlWaPzA684030",
+    "name": "黑豹d",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_V_ausf_d_panther",
+    "aliases": [
+      "germ_pzkpfw_V_ausf_d_panther",
+      "germ_pzkpfw_v_ausf_d_panther"
+    ],
+    "asset": "germ_pzkpfw_v_ausf_d_panther",
+    "assetFile": "germ_pzkpfw_v_ausf_d_panther.grp"
+  },
+  {
+    "index": 4,
+    "id": "AWddNDImhb058496",
+    "name": "zsu57-2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_zsu_57_2",
+    "aliases": [
+      "ussr_zsu_57_2"
+    ],
+    "asset": "ussr_zsu_57_2",
+    "assetFile": "ussr_zsu_57_2.grp"
+  },
+  {
+    "index": 5,
+    "id": "bFBpgFCJEA469020",
+    "name": "ztz100",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 6,
+    "id": "BJlXnaCKSt128391",
+    "name": "t72a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72a",
+    "aliases": [
+      "ussr_t_72a"
+    ],
+    "asset": "ussr_t_72a",
+    "assetFile": "ussr_t_72a.grp"
+  },
+  {
+    "index": 7,
+    "id": "brjNaZNgSb518688",
+    "name": "kv1s",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1s",
+    "aliases": [
+      "ussr_kv_1s"
+    ],
+    "asset": "ussr_kv_1s",
+    "assetFile": "ussr_kv_1s.grp"
+  },
+  {
+    "index": 8,
+    "id": "bYmPFapkrd646150",
+    "name": "t72b3",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72b3_2011",
+    "aliases": [
+      "ussr_t_72b3_2011",
+      "ussr_t_72b3"
+    ],
+    "asset": "ussr_t_72b3",
+    "assetFile": "ussr_t_72b3.grp"
+  },
+  {
+    "index": 9,
+    "id": "CDPjxYUvrX349440",
+    "name": "kv2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_2_1939",
+    "aliases": [
+      "ussr_kv_2_1939",
+      "ussr_kv_2"
+    ],
+    "asset": "ussr_kv_2",
+    "assetFile": "ussr_kv_2.grp"
+  },
+  {
+    "index": 10,
+    "id": "CDWjXWcKUJ862347",
+    "name": "t55",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_55a",
+    "aliases": [
+      "ussr_t_55a"
+    ],
+    "asset": "ussr_t_55a",
+    "assetFile": "ussr_t_55a.grp"
+  },
+  {
+    "index": 11,
+    "id": "cIcbLxaVta921609",
+    "name": "突击虎",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_sturmmorser_sturmtiger",
+    "aliases": [
+      "germ_sturmmorser_sturmtiger"
+    ],
+    "asset": "germ_sturmmorser_sturmtiger",
+    "assetFile": "germ_sturmmorser_sturmtiger.grp"
+  },
+  {
+    "index": 12,
+    "id": "CixxElobBz949463",
+    "name": "虎王（1-50）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIp",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_b_tiger_IIp",
+      "germ_pzkpfw_vi_ausf_b_tiger"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_b_tiger",
+    "assetFile": "germ_pzkpfw_vi_ausf_b_tiger.grp"
+  },
+  {
+    "index": 13,
+    "id": "CQHQLlbCKz997321",
+    "name": "三号突击炮f",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_stug_III_ausf_F",
+    "aliases": [
+      "germ_stug_III_ausf_F",
+      "germ_stug_iii_ausf_f"
+    ],
+    "asset": "germ_stug_iii_ausf_f",
+    "assetFile": "germ_stug_iii_ausf_f.grp"
+  },
+  {
+    "index": 14,
+    "id": "dHYxvCkOMH316211",
+    "name": "isu152",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_isu_152",
+    "aliases": [
+      "ussr_isu_152"
+    ],
+    "asset": "ussr_isu_152",
+    "assetFile": "ussr_isu_152.grp"
+  },
+  {
+    "index": 15,
+    "id": "doycduRZVb149869",
+    "name": "t55am",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_55_am",
+    "aliases": [
+      "ussr_t_55_am",
+      "ussr_t_55am"
+    ],
+    "asset": "ussr_t_55am",
+    "assetFile": "ussr_t_55am.grp"
+  },
+  {
+    "index": 16,
+    "id": "dUHlIXjWsg371124",
+    "name": "虎e（苏）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_e_tiger",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_e_tiger",
+      "germ_pzkpfw_vi_ausf_e_tiger"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_e_tiger",
+    "assetFile": "germ_pzkpfw_vi_ausf_e_tiger.grp"
+  },
+  {
+    "index": 17,
+    "id": "DWeLMrILew632459",
+    "name": "m4a2（76）（苏）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_m4a2_76w_sherman",
+    "aliases": [
+      "ussr_m4a2_76w_sherman",
+      "usa_m4a2_sherman_1944"
+    ],
+    "asset": "usa_m4a2_sherman_1944",
+    "assetFile": "usa_m4a2_sherman_1944.grp"
+  },
+  {
+    "index": 18,
+    "id": "dwODhyNoNQ837420",
+    "name": "isu122",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_isu_122",
+    "aliases": [
+      "ussr_isu_122",
+      "ussr_isu_152"
+    ],
+    "asset": "ussr_isu_152",
+    "assetFile": "ussr_isu_152.grp"
+  },
+  {
+    "index": 19,
+    "id": "dYkSLfxWUN158140",
+    "name": "黑豹g",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_V_ausf_g_panther",
+    "aliases": [
+      "germ_pzkpfw_V_ausf_g_panther",
+      "germ_pzkpfw_v_ausf_g_panther"
+    ],
+    "asset": "germ_pzkpfw_v_ausf_g_panther",
+    "assetFile": "germ_pzkpfw_v_ausf_g_panther.grp"
+  },
+  {
+    "index": 20,
+    "id": "EpQlXdSQcr400165",
+    "name": "kv1e",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1e",
+    "aliases": [
+      "ussr_kv_1e"
+    ],
+    "asset": "ussr_kv_1e",
+    "assetFile": "ussr_kv_1e.grp"
+  },
+  {
+    "index": 21,
+    "id": "eqbqICaCOr301752",
+    "name": "kv1e（德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_kv_1B_finland",
+    "aliases": [
+      "germ_kv_1B_finland"
+    ],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 22,
+    "id": "EQLcHxEAXy265141",
+    "name": "m4a3e2（76）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a3e2_76w_sherman_jumbo",
+    "aliases": [
+      "us_m4a3e2_76w_sherman_jumbo",
+      "usa_m4a3e2_76w_sherman_jumbo",
+      "usa_m4a3e2_sherman_jumbo"
+    ],
+    "asset": "usa_m4a3e2_sherman_jumbo",
+    "assetFile": "usa_m4a3e2_sherman_jumbo.grp"
+  },
+  {
+    "index": 23,
+    "id": "ERhRcqycEL241564",
+    "name": "kv1e（芬兰）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_kv_1B_finland",
+    "aliases": [
+      "germ_kv_1B_finland"
+    ],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 24,
+    "id": "EVpBTfDmzZ476815",
+    "name": "bt7",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bt_7_1937",
+    "aliases": [
+      "ussr_bt_7_1937",
+      "ussr_bt_7"
+    ],
+    "asset": "ussr_bt_7",
+    "assetFile": "ussr_bt_7.grp"
+  },
+  {
+    "index": 25,
+    "id": "ezjaVmqfBk166853",
+    "name": "t34-76(德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_t_34_747",
+    "aliases": [
+      "germ_t_34_747"
+    ],
+    "asset": "germ_t_34_747",
+    "assetFile": "germ_t_34_747.grp"
+  },
+  {
+    "index": 26,
+    "id": "FAXwzMzZhz803796",
+    "name": "asu85",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_asu_85",
+    "aliases": [
+      "ussr_asu_85"
+    ],
+    "asset": "ussr_asu_85",
+    "assetFile": "ussr_asu_85.grp"
+  },
+  {
+    "index": 27,
+    "id": "fBOjisHmiy607175",
+    "name": "plz05",
+    "wikiUrl": "https://wiki.warthunder.com/unit/cn_plz_05",
+    "aliases": [
+      "cn_plz_05"
+    ],
+    "asset": "cn_plz_05",
+    "assetFile": "cn_plz_05.grp"
+  },
+  {
+    "index": 28,
+    "id": "FfwkOUywUA568623",
+    "name": "m4",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4_sherman",
+    "aliases": [
+      "us_m4_sherman",
+      "usa_m4_sherman",
+      "usa_m4_sherman_late",
+      "usa_m4a1_sherman_1942"
+    ],
+    "asset": "usa_m4_sherman_late",
+    "assetFile": "usa_m4_sherman_late.grp"
+  },
+  {
+    "index": 29,
+    "id": "fMpCnbteuM210809",
+    "name": "豹2k",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2k",
+    "aliases": [
+      "germ_leopard_2k"
+    ],
+    "asset": "germ_leopard_2k",
+    "assetFile": "germ_leopard_2k.grp"
+  },
+  {
+    "index": 30,
+    "id": "fPutsrAqTN343132",
+    "name": "kv2(德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_kv_2_754r",
+    "aliases": [
+      "germ_kv_2_754r"
+    ],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 31,
+    "id": "fXGlOnWwhy794514",
+    "name": "t72b",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72b",
+    "aliases": [
+      "ussr_t_72b"
+    ],
+    "asset": "ussr_t_72b",
+    "assetFile": "ussr_t_72b.grp"
+  },
+  {
+    "index": 32,
+    "id": "gaJZdFgLTf695150",
+    "name": "t80b",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_80b",
+    "aliases": [
+      "ussr_t_80b"
+    ],
+    "asset": "ussr_t_80b",
+    "assetFile": "ussr_t_80b.grp"
+  },
+  {
+    "index": 33,
+    "id": "GBEzvSlZEf270511",
+    "name": "16式",
+    "wikiUrl": "https://wiki.warthunder.com/unit/jp_type_16_mcv_prot",
+    "aliases": [
+      "jp_type_16_mcv_prot",
+      "jp_type_16_mcv",
+      "jp_type_16"
+    ],
+    "asset": "jp_type_16_mcv",
+    "assetFile": "jp_type_16_mcv.grp"
+  },
+  {
+    "index": 34,
+    "id": "gBMzjTDBaZ229541",
+    "name": "sd.Kfz234/4",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_sdkfz_234_4",
+    "aliases": [
+      "germ_sdkfz_234_4"
+    ],
+    "asset": "germ_sdkfz_234_4",
+    "assetFile": "germ_sdkfz_234_4.grp"
+  },
+  {
+    "index": 35,
+    "id": "GgKPLteHtu306205",
+    "name": "黑豹II",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_panther_II",
+    "aliases": [
+      "germ_panther_II",
+      "germ_pzkpfw_v_panther_ii"
+    ],
+    "asset": "germ_pzkpfw_v_panther_ii",
+    "assetFile": "germ_pzkpfw_v_panther_ii.grp"
+  },
+  {
+    "index": 36,
+    "id": "gGQLPCPUWl902098",
+    "name": "kv1（德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1_L_11",
+    "aliases": [
+      "ussr_kv_1_L_11"
+    ],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 37,
+    "id": "gKmhipdBaS696303",
+    "name": "t34（1942）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_34_1942",
+    "aliases": [
+      "ussr_t_34_1942"
+    ],
+    "asset": "ussr_t_34_1942",
+    "assetFile": "ussr_t_34_1942.grp"
+  },
+  {
+    "index": 38,
+    "id": "gQhrudtAZs935548",
+    "name": "t64b",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_64_b_1984",
+    "aliases": [
+      "ussr_t_64_b_1984",
+      "ussr_t_64_b"
+    ],
+    "asset": "ussr_t_64_b",
+    "assetFile": "ussr_t_64_b.grp"
+  },
+  {
+    "index": 39,
+    "id": "guijDXSWTf298463",
+    "name": "黑豹原型车",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_vk_3002m",
+    "aliases": [
+      "germ_vk_3002m"
+    ],
+    "asset": "germ_vk_3002m",
+    "assetFile": "germ_vk_3002m.grp"
+  },
+  {
+    "index": 40,
+    "id": "hKwbBctAwB126758",
+    "name": "bmp2m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bmp_2m",
+    "aliases": [
+      "ussr_bmp_2m"
+    ],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 41,
+    "id": "HTJwKMGQfp564722",
+    "name": "m1a2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1a2_abrams",
+    "aliases": [
+      "us_m1a2_abrams",
+      "usa_m1a2_abrams"
+    ],
+    "asset": "usa_m1a2_abrams",
+    "assetFile": "usa_m1a2_abrams.grp"
+  },
+  {
+    "index": 42,
+    "id": "iExggWIStn745984",
+    "name": "豹1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_I",
+    "aliases": [
+      "germ_leopard_I",
+      "germ_leopard_1"
+    ],
+    "asset": "germ_leopard_1",
+    "assetFile": "germ_leopard_1.grp"
+  },
+  {
+    "index": 43,
+    "id": "IgoDOVtjny286147",
+    "name": "豹1a5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_1a5",
+    "aliases": [
+      "germ_leopard_1a5"
+    ],
+    "asset": "germ_leopard_1a5",
+    "assetFile": "germ_leopard_1a5.grp"
+  },
+  {
+    "index": 44,
+    "id": "imLLNWJvCm745488",
+    "name": "t80u",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_80u",
+    "aliases": [
+      "ussr_t_80u"
+    ],
+    "asset": "ussr_t_80u",
+    "assetFile": "ussr_t_80u.grp"
+  },
+  {
+    "index": 45,
+    "id": "IPDOjzKDIZ526426",
+    "name": "反坦克短导弹",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 46,
+    "id": "iTpcUXDRTe953231",
+    "name": "豹2a7",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a7v",
+    "aliases": [
+      "germ_leopard_2a7v"
+    ],
+    "asset": "germ_leopard_2a7v",
+    "assetFile": "germ_leopard_2a7v.grp"
+  },
+  {
+    "index": 47,
+    "id": "IwnfLofTNV936851",
+    "name": "t80bvm",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_80bvm",
+    "aliases": [
+      "ussr_t_80bvm"
+    ],
+    "asset": "ussr_t_80bvm",
+    "assetFile": "ussr_t_80bvm.grp"
+  },
+  {
+    "index": 48,
+    "id": "IYbjbUlQat694129",
+    "name": "kv1（早）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1_l_11",
+    "aliases": [
+      "ussr_kv_1_l_11"
+    ],
+    "asset": "ussr_kv_1_l_11",
+    "assetFile": "ussr_kv_1_l_11.grp"
+  },
+  {
+    "index": 49,
+    "id": "jElsrLBWfk537760",
+    "name": "克伦威尔1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/uk_a27m_cromwell_1",
+    "aliases": [
+      "uk_a27m_cromwell_1"
+    ],
+    "asset": "uk_a27m_cromwell_1",
+    "assetFile": "uk_a27m_cromwell_1.grp"
+  },
+  {
+    "index": 50,
+    "id": "jIshHuUVYH534647",
+    "name": "25mm机炮",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 51,
+    "id": "JRHqjYLfKH678477",
+    "name": "bmpt",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bmpt_72",
+    "aliases": [
+      "ussr_bmpt_72"
+    ],
+    "asset": "ussr_bmpt_72",
+    "assetFile": "ussr_bmpt_72.grp"
+  },
+  {
+    "index": 52,
+    "id": "JwucNWZNeo521692",
+    "name": "t54",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_54_1951",
+    "aliases": [
+      "ussr_t_54_1951"
+    ],
+    "asset": "ussr_t_54_1951",
+    "assetFile": "ussr_t_54_1951.grp"
+  },
+  {
+    "index": 53,
+    "id": "JXxEpEZYOt258630",
+    "name": "豹2a6",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a6",
+    "aliases": [
+      "germ_leopard_2a6"
+    ],
+    "asset": "germ_leopard_2a6",
+    "assetFile": "germ_leopard_2a6.grp"
+  },
+  {
+    "index": 54,
+    "id": "kgOAmtIgiT622643",
+    "name": "bt7m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bt_7_m",
+    "aliases": [
+      "ussr_bt_7_m",
+      "ussr_bt_7m"
+    ],
+    "asset": "ussr_bt_7m",
+    "assetFile": "ussr_bt_7m.grp"
+  },
+  {
+    "index": 55,
+    "id": "KlUkpDHliB577918",
+    "name": "三号m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_M",
+    "aliases": [
+      "germ_pzkpfw_III_ausf_M",
+      "germ_pzkpfw_iii_ausf_m"
+    ],
+    "asset": "germ_pzkpfw_iii_ausf_m",
+    "assetFile": "germ_pzkpfw_iii_ausf_m.grp"
+  },
+  {
+    "index": 56,
+    "id": "KluoZMAlmy467076",
+    "name": "豹2a4",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a4",
+    "aliases": [
+      "germ_leopard_2a4"
+    ],
+    "asset": "germ_leopard_2a4",
+    "assetFile": "germ_leopard_2a4.grp"
+  },
+  {
+    "index": 57,
+    "id": "KSSXYDCgkl233806",
+    "name": "t34-85",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_34_85_zis_53",
+    "aliases": [
+      "ussr_t_34_85_zis_53"
+    ],
+    "asset": "ussr_t_34_85_zis_53",
+    "assetFile": "ussr_t_34_85_zis_53.grp"
+  },
+  {
+    "index": 58,
+    "id": "KuSPOkxngG289743",
+    "name": "m4a3（105）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a3_105_sherman",
+    "aliases": [
+      "us_m4a3_105_sherman",
+      "usa_m4a3_105_sherman",
+      "usa_m4_sherman_late"
+    ],
+    "asset": "usa_m4_sherman_late",
+    "assetFile": "usa_m4_sherman_late.grp"
+  },
+  {
+    "index": 59,
+    "id": "lcffkQUwyf860113",
+    "name": "谢尔曼m4a2（德国）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a2_1944_germ",
+    "aliases": [
+      "us_m4a2_1944_germ",
+      "usa_m4a2_1944_germ",
+      "usa_m4a2_sherman_1944"
+    ],
+    "asset": "usa_m4a2_sherman_1944",
+    "assetFile": "usa_m4a2_sherman_1944.grp"
+  },
+  {
+    "index": 60,
+    "id": "LeqcVhByUW581558",
+    "name": "黑豹g（苏）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_V_ausf_g_panther",
+    "aliases": [
+      "germ_pzkpfw_V_ausf_g_panther",
+      "germ_pzkpfw_v_ausf_g_panther"
+    ],
+    "asset": "germ_pzkpfw_v_ausf_g_panther",
+    "assetFile": "germ_pzkpfw_v_ausf_g_panther.grp"
+  },
+  {
+    "index": 61,
+    "id": "lhJVnSXfcz712412",
+    "name": "虎王",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_b_tiger_IIh",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_b_tiger_IIh",
+      "germ_pzkpfw_vi_ausf_b_tiger_h"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_b_tiger_h",
+    "assetFile": "germ_pzkpfw_vi_ausf_b_tiger_h.grp"
+  },
+  {
+    "index": 62,
+    "id": "MjbUgYjCFB224780",
+    "name": "t64a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_64a_1971",
+    "aliases": [
+      "ussr_t_64a_1971",
+      "ussr_t_64_a_1971"
+    ],
+    "asset": "ussr_t_64_a_1971",
+    "assetFile": "ussr_t_64_a_1971.grp"
+  },
+  {
+    "index": 63,
+    "id": "MnqIRcALHM302735",
+    "name": "t54（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_54_1951",
+    "aliases": [
+      "ussr_t_54_1951"
+    ],
+    "asset": "ussr_t_54_1951",
+    "assetFile": "ussr_t_54_1951.grp"
+  },
+  {
+    "index": 64,
+    "id": "MOQCHOaMgP151855",
+    "name": "t90m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_90m_2020",
+    "aliases": [
+      "ussr_t_90m_2020",
+      "ussr_t_90m"
+    ],
+    "asset": "ussr_t_90m",
+    "assetFile": "ussr_t_90m.grp"
+  },
+  {
+    "index": 65,
+    "id": "ndLITUxqLz104280",
+    "name": "虎h1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_h1_tiger",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_h1_tiger",
+      "germ_pzkpfw_vi_ausf_h1_tiger"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_h1_tiger",
+    "assetFile": "germ_pzkpfw_vi_ausf_h1_tiger.grp"
+  },
+  {
+    "index": 66,
+    "id": "nfkUEAYqiL791402",
+    "name": "m1a2v2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1a2_sep2_abrams",
+    "aliases": [
+      "us_m1a2_sep2_abrams",
+      "usa_m1a2_sep2_abrams",
+      "usa_m1a2_sep2"
+    ],
+    "asset": "usa_m1a2_sep2",
+    "assetFile": "usa_m1a2_sep2.grp"
+  },
+  {
+    "index": 67,
+    "id": "ngahgHbRxQ816258",
+    "name": "su100",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_su_100_1945",
+    "aliases": [
+      "ussr_su_100_1945",
+      "ussr_su_100"
+    ],
+    "asset": "ussr_su_100",
+    "assetFile": "ussr_su_100.grp"
+  },
+  {
+    "index": 68,
+    "id": "nGUQhLXOJu474631",
+    "name": "豹2pos",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a5_pso",
+    "aliases": [
+      "germ_leopard_2a5_pso",
+      "germ_leopard_2_pso"
+    ],
+    "asset": "germ_leopard_2_pso",
+    "assetFile": "germ_leopard_2_pso.grp"
+  },
+  {
+    "index": 69,
+    "id": "nMQqdcPMvN886387",
+    "name": "t95",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 70,
+    "id": "nssnttVPUN893457",
+    "name": "is4m",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_is_4m",
+    "aliases": [
+      "ussr_is_4m"
+    ],
+    "asset": "ussr_is_4m",
+    "assetFile": "ussr_is_4m.grp"
+  },
+  {
+    "index": 71,
+    "id": "nXuCSCwQyE727763",
+    "name": "t55amd1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_55_amd_1",
+    "aliases": [
+      "ussr_t_55_amd_1",
+      "ussr_t_55amd_1"
+    ],
+    "asset": "ussr_t_55amd_1",
+    "assetFile": "ussr_t_55amd_1.grp"
+  },
+  {
+    "index": 72,
+    "id": "OdEnBJawqP133228",
+    "name": "bt5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bt_5",
+    "aliases": [
+      "ussr_bt_5"
+    ],
+    "asset": "ussr_bt_5",
+    "assetFile": "ussr_bt_5.grp"
+  },
+  {
+    "index": 73,
+    "id": "OGTtnQYzMo639373",
+    "name": "t72（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72a",
+    "aliases": [
+      "ussr_t_72a"
+    ],
+    "asset": "ussr_t_72a",
+    "assetFile": "ussr_t_72a.grp"
+  },
+  {
+    "index": 74,
+    "id": "OKSBXCzyBS806441",
+    "name": "m4a2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a2_sherman",
+    "aliases": [
+      "us_m4a2_sherman",
+      "usa_m4a2_sherman",
+      "usa_m4a2_sherman_1944"
+    ],
+    "asset": "usa_m4a2_sherman_1944",
+    "assetFile": "usa_m4a2_sherman_1944.grp"
+  },
+  {
+    "index": 75,
+    "id": "OoiGmmLmYl504522",
+    "name": "t55（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_55a",
+    "aliases": [
+      "ussr_t_55a"
+    ],
+    "asset": "ussr_t_55a",
+    "assetFile": "ussr_t_55a.grp"
+  },
+  {
+    "index": 76,
+    "id": "oOqUudJcZJ650231",
+    "name": "t90a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_90a",
+    "aliases": [
+      "ussr_t_90a"
+    ],
+    "asset": "ussr_t_90a",
+    "assetFile": "ussr_t_90a.grp"
+  },
+  {
+    "index": 77,
+    "id": "PKaBSRuxhd903779",
+    "name": "t34-57",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_34_1941_57",
+    "aliases": [
+      "ussr_t_34_1941_57",
+      "ussr_t_34_1941"
+    ],
+    "asset": "ussr_t_34_1941",
+    "assetFile": "ussr_t_34_1941.grp"
+  },
+  {
+    "index": 78,
+    "id": "PnHrcNoqSo560665",
+    "name": "m1hc",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1a1_hc_abrams",
+    "aliases": [
+      "us_m1a1_hc_abrams",
+      "usa_m1a1_hc_abrams"
+    ],
+    "asset": "usa_m1a1_hc_abrams",
+    "assetFile": "usa_m1a1_hc_abrams.grp"
+  },
+  {
+    "index": 79,
+    "id": "PqiZcFHptx855200",
+    "name": "m4a1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a1_1942_sherman",
+    "aliases": [
+      "us_m4a1_1942_sherman",
+      "usa_m4a1_1942_sherman",
+      "usa_m4a1_sherman_1942"
+    ],
+    "asset": "usa_m4a1_sherman_1942",
+    "assetFile": "usa_m4a1_sherman_1942.grp"
+  },
+  {
+    "index": 80,
+    "id": "PQQsDrQLkZ488978",
+    "name": "三号f",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_F",
+    "aliases": [
+      "germ_pzkpfw_III_ausf_F",
+      "germ_pzkpfw_iii_ausf_f"
+    ],
+    "asset": "germ_pzkpfw_iii_ausf_f",
+    "assetFile": "germ_pzkpfw_iii_ausf_f.grp"
+  },
+  {
+    "index": 81,
+    "id": "PVlrNGBpFE322432",
+    "name": "t72m1（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_kpz_t72m1",
+    "aliases": [
+      "germ_kpz_t72m1"
+    ],
+    "asset": "germ_kpz_t72m1",
+    "assetFile": "germ_kpz_t72m1.grp"
+  },
+  {
+    "index": 82,
+    "id": "qgqFAgQEIv421272",
+    "name": "75mm改件",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 83,
+    "id": "qJiZbKbAVt626480",
+    "name": "sd.kfz234/2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_sdkfz_234_2",
+    "aliases": [
+      "germ_sdkfz_234_2"
+    ],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 84,
+    "id": "QmhmNeEMQv525029",
+    "name": "T34-88炮：虎h1\n车身：t34-85",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 85,
+    "id": "RBXuIALEdk513273",
+    "name": "t64a（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_64a_1971",
+    "aliases": [
+      "ussr_t_64a_1971",
+      "ussr_t_64_a_1971"
+    ],
+    "asset": "ussr_t_64_a_1971",
+    "assetFile": "ussr_t_64_a_1971.grp"
+  },
+  {
+    "index": 86,
+    "id": "rcfDZmwsdv207296",
+    "name": "克利安",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_flakpanzer_v_coelian",
+    "aliases": [
+      "germ_flakpanzer_v_coelian",
+      "germ_flpz_v_coelian"
+    ],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 87,
+    "id": "ReuLbiuWzO136123",
+    "name": "m1a1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1a1_abrams",
+    "aliases": [
+      "us_m1a1_abrams",
+      "usa_m1a1_abrams"
+    ],
+    "asset": "usa_m1a1_abrams",
+    "assetFile": "usa_m1a1_abrams.grp"
+  },
+  {
+    "index": 88,
+    "id": "rrwDbbxdas077059",
+    "name": "88mm",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 89,
+    "id": "RTBLKPuAUU067975",
+    "name": "kv2（1940）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_2_1940",
+    "aliases": [
+      "ussr_kv_2_1940",
+      "ussr_kv_2"
+    ],
+    "asset": "ussr_kv_2",
+    "assetFile": "ussr_kv_2.grp"
+  },
+  {
+    "index": 90,
+    "id": "rtFmlVRGOf199561",
+    "name": "59d",
+    "wikiUrl": "https://wiki.warthunder.com/unit/cn_type_59d",
+    "aliases": [
+      "cn_type_59d"
+    ],
+    "asset": "cn_type_59d",
+    "assetFile": "cn_type_59d.grp"
+  },
+  {
+    "index": 91,
+    "id": "rtGOzcNphw524407",
+    "name": "豹1a1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_i_a1",
+    "aliases": [
+      "germ_leopard_i_a1",
+      "germ_leopard_1_a1"
+    ],
+    "asset": "germ_leopard_1_a1",
+    "assetFile": "germ_leopard_1_a1.grp"
+  },
+  {
+    "index": 92,
+    "id": "RVrxqeDpow620893",
+    "name": "su122",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_su_122",
+    "aliases": [
+      "ussr_su_122"
+    ],
+    "asset": "ussr_su_122",
+    "assetFile": "ussr_su_122.grp"
+  },
+  {
+    "index": 93,
+    "id": "rvTkJBmAAG276460",
+    "name": "strv103a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/sw_strv_103a",
+    "aliases": [
+      "sw_strv_103a",
+      "se_strv_103_0",
+      "se_strv_103"
+    ],
+    "asset": "se_strv_103_0",
+    "assetFile": "se_strv_103_0.grp"
+  },
+  {
+    "index": 94,
+    "id": "SlvgixiyvB010572",
+    "name": "三号e",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_III_ausf_E",
+    "aliases": [
+      "germ_pzkpfw_III_ausf_E",
+      "germ_pzkpfw_iii_ausf_e"
+    ],
+    "asset": "germ_pzkpfw_iii_ausf_e",
+    "assetFile": "germ_pzkpfw_iii_ausf_e.grp"
+  },
+  {
+    "index": 95,
+    "id": "sPJQoFNndh535734",
+    "name": "虎e",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_VI_ausf_e_tiger",
+    "aliases": [
+      "germ_pzkpfw_VI_ausf_e_tiger",
+      "germ_pzkpfw_vi_ausf_e_tiger"
+    ],
+    "asset": "germ_pzkpfw_vi_ausf_e_tiger",
+    "assetFile": "germ_pzkpfw_vi_ausf_e_tiger.grp"
+  },
+  {
+    "index": 96,
+    "id": "srXRvpiwgY898366",
+    "name": "t72b（东德）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72b",
+    "aliases": [
+      "ussr_t_72b"
+    ],
+    "asset": "ussr_t_72b",
+    "assetFile": "ussr_t_72b.grp"
+  },
+  {
+    "index": 97,
+    "id": "sSgPHOQKPV590433",
+    "name": "m4a2（76）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a2_76w_sherman",
+    "aliases": [
+      "us_m4a2_76w_sherman",
+      "usa_m4a2_76w_sherman",
+      "usa_m4a2_sherman_1944"
+    ],
+    "asset": "usa_m4a2_sherman_1944",
+    "assetFile": "usa_m4a2_sherman_1944.grp"
+  },
+  {
+    "index": 98,
+    "id": "sUqChnzUhD505054",
+    "name": "防空导弹",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 99,
+    "id": "sxHNaajnrB103109",
+    "name": "炮45mm",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 100,
+    "id": "SZIDTxDSlM881951",
+    "name": "m4a3e2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a3e2_sherman_jumbo",
+    "aliases": [
+      "us_m4a3e2_sherman_jumbo",
+      "usa_m4a3e2_sherman_jumbo"
+    ],
+    "asset": "usa_m4a3e2_sherman_jumbo",
+    "assetFile": "usa_m4a3e2_sherman_jumbo.grp"
+  },
+  {
+    "index": 101,
+    "id": "tvuCFbSTya926111",
+    "name": "t34（1941）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_34_1941",
+    "aliases": [
+      "ussr_t_34_1941"
+    ],
+    "asset": "ussr_t_34_1941",
+    "assetFile": "ussr_t_34_1941.grp"
+  },
+  {
+    "index": 102,
+    "id": "TWLdpaMMHq886489",
+    "name": "三号突击炮G",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_stug_III_ausf_G",
+    "aliases": [
+      "germ_stug_III_ausf_G",
+      "germ_stug_40_ausf_g",
+      "germ_stug_iii_ausf_g"
+    ],
+    "asset": "germ_stug_40_ausf_g",
+    "assetFile": "germ_stug_40_ausf_g.grp"
+  },
+  {
+    "index": 103,
+    "id": "UvekLsNqCV426934",
+    "name": "鼠式",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_Maus",
+    "aliases": [
+      "germ_pzkpfw_Maus",
+      "germ_pzkpfw_viii_maus"
+    ],
+    "asset": "germ_pzkpfw_viii_maus",
+    "assetFile": "germ_pzkpfw_viii_maus.grp"
+  },
+  {
+    "index": 104,
+    "id": "UyvCcpznjr327597",
+    "name": "t80um2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_80um2",
+    "aliases": [
+      "ussr_t_80um2"
+    ],
+    "asset": "ussr_t_80um2",
+    "assetFile": "ussr_t_80um2.grp"
+  },
+  {
+    "index": 105,
+    "id": "VAADidrBpH912234",
+    "name": "t72b3a",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_72b3_arena_m",
+    "aliases": [
+      "ussr_t_72b3_arena_m",
+      "ussr_t_72b3_arena"
+    ],
+    "asset": "ussr_t_72b3_arena",
+    "assetFile": "ussr_t_72b3_arena.grp"
+  },
+  {
+    "index": 106,
+    "id": "vHKaJtcvcr391587",
+    "name": "m1",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1_abrams",
+    "aliases": [
+      "us_m1_abrams",
+      "usa_m1_abrams"
+    ],
+    "asset": "usa_m1_abrams",
+    "assetFile": "usa_m1_abrams.grp"
+  },
+  {
+    "index": 107,
+    "id": "VHWAeCByUK304876",
+    "name": "m4a3（76",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a3e8_76w_sherman",
+    "aliases": [
+      "us_m4a3e8_76w_sherman",
+      "usa_m4a3e8_76w_sherman"
+    ],
+    "asset": "usa_m4a3e8_76w_sherman",
+    "assetFile": "usa_m4a3e8_76w_sherman.grp"
+  },
+  {
+    "index": 108,
+    "id": "vulVSejOyb162250",
+    "name": "bmp2",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_bmp_2",
+    "aliases": [
+      "ussr_bmp_2"
+    ],
+    "asset": "ussr_bmp_2",
+    "assetFile": "ussr_bmp_2.grp"
+  },
+  {
+    "index": 109,
+    "id": "wcjkttFzTB342705",
+    "name": "is3",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_is_3",
+    "aliases": [
+      "ussr_is_3"
+    ],
+    "asset": "ussr_is_3",
+    "assetFile": "ussr_is_3.grp"
+  },
+  {
+    "index": 110,
+    "id": "wdfapCueWV829610",
+    "name": "豹2a5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_leopard_2a5",
+    "aliases": [
+      "germ_leopard_2a5"
+    ],
+    "asset": "germ_leopard_2a5",
+    "assetFile": "germ_leopard_2a5.grp"
+  },
+  {
+    "index": 111,
+    "id": "WFwUIlqAbJ933903",
+    "name": "猎豹",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_panzerjager_panther",
+    "aliases": [
+      "germ_panzerjager_panther"
+    ],
+    "asset": "germ_panzerjager_panther",
+    "assetFile": "germ_panzerjager_panther.grp"
+  },
+  {
+    "index": 112,
+    "id": "WjjbQFKavQ265317",
+    "name": "30mm机炮",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 113,
+    "id": "WlydbvnfBE486703",
+    "name": "克伦威尔5",
+    "wikiUrl": "https://wiki.warthunder.com/unit/uk_a27m_cromwell_5",
+    "aliases": [
+      "uk_a27m_cromwell_5"
+    ],
+    "asset": "uk_a27m_cromwell_5",
+    "assetFile": "uk_a27m_cromwell_5.grp"
+  },
+  {
+    "index": 114,
+    "id": "wpYQQtAqrO665861",
+    "name": "kv1（芬兰）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_kv_1_L_11",
+    "aliases": [
+      "ussr_kv_1_L_11"
+    ],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 115,
+    "id": "wVMVINEdoM169164",
+    "name": "m4a1（76）",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m4a1_76w_sherman",
+    "aliases": [
+      "us_m4a1_76w_sherman",
+      "usa_m4a1_76w_sherman"
+    ],
+    "asset": "usa_m4a1_76w_sherman",
+    "assetFile": "usa_m4a1_76w_sherman.grp"
+  },
+  {
+    "index": 116,
+    "id": "xARwPMaVpD143631",
+    "name": "sd.Kfz234/3",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_sdkfz_234_3",
+    "aliases": [
+      "germ_sdkfz_234_3"
+    ],
+    "asset": "germ_sdkfz_234_3",
+    "assetFile": "germ_sdkfz_234_3.grp"
+  },
+  {
+    "index": 117,
+    "id": "YnAsyvfNJL206928",
+    "name": "黑豹f",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_pzkpfw_V_ausf_f_panther",
+    "aliases": [
+      "germ_pzkpfw_V_ausf_f_panther",
+      "germ_pzkpfw_v_ausf_g_panther"
+    ],
+    "asset": "germ_pzkpfw_v_ausf_g_panther",
+    "assetFile": "germ_pzkpfw_v_ausf_g_panther.grp"
+  },
+  {
+    "index": 118,
+    "id": "ySTeREVxrG012140",
+    "name": "m1128",
+    "wikiUrl": "https://wiki.warthunder.com/unit/us_m1128_mgs",
+    "aliases": [
+      "us_m1128_mgs",
+      "usa_m1128_mgs"
+    ],
+    "asset": "usa_m1128_mgs",
+    "assetFile": "usa_m1128_mgs.grp"
+  },
+  {
+    "index": 119,
+    "id": "zAhuzOWTZx038235",
+    "name": "strv103c",
+    "wikiUrl": "https://wiki.warthunder.com/unit/sw_strv_103c",
+    "aliases": [
+      "sw_strv_103c",
+      "se_strv_103"
+    ],
+    "asset": "se_strv_103",
+    "assetFile": "se_strv_103.grp"
+  },
+  {
+    "index": 120,
+    "id": "ZnJCDaDRDg491760",
+    "name": "t50",
+    "wikiUrl": "https://wiki.warthunder.com/unit/ussr_t_50",
+    "aliases": [
+      "ussr_t_50"
+    ],
+    "asset": "ussr_t_50",
+    "assetFile": "ussr_t_50.grp"
+  },
+  {
+    "index": 121,
+    "id": "ZnmJhRUcFm119428",
+    "name": "s300",
+    "wikiUrl": null,
+    "aliases": [],
+    "asset": null,
+    "assetFile": null
+  },
+  {
+    "index": 122,
+    "id": "ZRMhsOYNgq055960",
+    "name": "三号突击炮短管",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_stug_III_ausf_A",
+    "aliases": [
+      "germ_stug_III_ausf_A",
+      "germ_stug_iii_ausf_a"
+    ],
+    "asset": "germ_stug_iii_ausf_a",
+    "assetFile": "germ_stug_iii_ausf_a.grp"
+  },
+  {
+    "index": 123,
+    "id": "new_node",
+    "name": "胡蜂",
+    "wikiUrl": "https://wiki.warthunder.com/unit/germ_panzerjager_nashorn",
+    "aliases": [
+      "germ_panzerjager_nashorn"
+    ],
+    "asset": "germ_panzerjager_nashorn",
+    "assetFile": "germ_panzerjager_nashorn.grp"
+  }
+]
