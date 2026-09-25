@@ -20,6 +20,7 @@
       <label class="field"><span>查找节点</span><input id="node-search" type="search" placeholder="输入坦克名称"></label>
       <div class="editor-actions">
         <button id="add-node" class="button button--subtle" type="button">新增节点</button>
+        <button id="delete-node" class="button button--subtle button--danger" type="button">删除当前节点</button>
         <button id="reset-draft" class="button button--subtle" type="button">恢复原版</button>
         <button id="export-draft" class="button button--subtle" type="button">导出草稿</button>
         <button id="commit-draft" class="button button--primary" type="button">确认并生成新版本</button>
@@ -38,6 +39,9 @@
           <input type="hidden" id="node-id">
           <label class="field"><span>名称</span><input id="node-name" type="text"></label>
           <label class="field"><span>Wiki 链接</span><input id="node-wiki" type="url"></label>
+          <label class="field"><span>载具图片路径</span><textarea id="node-images" rows="4" placeholder="每行一张，例如：images/056_germ_leopard_2a4.jpg"></textarea></label>
+          <label class="field"><span>选择图片文件</span><input id="node-image-files" type="file" accept="image/*" multiple></label>
+          <p id="image-file-status" class="editor-hint">可以一次选择多张图片；确认生成新版本时会尝试写入 images 文件夹。</p>
           <p class="editor-hint">节点位置请直接在右侧预览中拖动。块的大小会根据名称自动调整。</p>
           <div class="editor-actions"><button id="apply-node" class="button button--primary" type="submit">应用到草稿</button></div>
         </form>
@@ -62,7 +66,8 @@
             <button id="preview-zoom-in" class="button button--subtle" type="button" aria-label="放大预览">+</button>
           </div>
         </div>
-        <p class="editor-hint">滚轮或按钮缩放预览视图，拖动节点调整位置，拖动空白处移动视图。</p>
+        <p id="edge-click-status" class="editor-hint">连线：点击第一个节点，再点击第二个节点即可创建；拖动节点仍可调整位置。</p>
+        <p class="editor-hint">滚轮或按钮缩放预览视图，拖动空白处移动视图。</p>
         <svg id="editor-preview" class="editor-preview" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid meet" aria-label="科技树预览"><g id="preview-transform"></g></svg>
       </section>
     </section>
