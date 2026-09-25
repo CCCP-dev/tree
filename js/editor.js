@@ -16,7 +16,13 @@
     panViewY: 0,
     previewMap: { x: 0, y: 0, width: 1600, height: 900 },
     previewZoom: 1,
-    newNodeIds: new Set()
+    edgeStartId: null,
+    pointerNodeId: null,
+    pointerStartX: 0,
+    pointerStartY: 0,
+    pointerMoved: false,
+    newNodeIds: new Set(),
+    pendingImageFiles: new Map()
   };
 
   const branchSelect = document.getElementById('branch-select');
@@ -26,6 +32,7 @@
   const previewTransform = document.getElementById('preview-transform');
   const form = document.getElementById('node-form');
   const addNodeButton = document.getElementById('add-node');
+  const deleteNodeButton = document.getElementById('delete-node');
   const edgeFromSelect = document.getElementById('edge-from');
   const edgeToSelect = document.getElementById('edge-to');
   const addEdgeButton = document.getElementById('add-edge');
@@ -33,7 +40,15 @@
   const previewZoomIn = document.getElementById('preview-zoom-in');
   const previewZoomOut = document.getElementById('preview-zoom-out');
   const previewZoomReset = document.getElementById('preview-zoom-reset');
-  const fields = { id: document.getElementById('node-id'), name: document.getElementById('node-name'), wiki: document.getElementById('node-wiki') };
+  const edgeClickStatus = document.getElementById('edge-click-status');
+  const fields = {
+    id: document.getElementById('node-id'),
+    name: document.getElementById('node-name'),
+    wiki: document.getElementById('node-wiki'),
+    images: document.getElementById('node-images'),
+    imageFiles: document.getElementById('node-image-files'),
+    imageFileStatus: document.getElementById('image-file-status')
+  };
 
   function clone(value) { return JSON.parse(JSON.stringify(value)); }
   function getData() { return globalThis.WT_TREE_DATA ? clone(globalThis.WT_TREE_DATA) : { meta: {}, nodes: [], edges: [] }; }
@@ -47,6 +62,19 @@
   function syncAllNodeSize() { for (const node of state.draft.nodes || []) syncNodeSize(node); }
   function markNewNode(id) { state.newNodeIds.add(id); }
   function clearNewNodeMarks() { state.newNodeIds.clear(); }
+  function normalizeImagePath(value) {
+    const slash = String.fromCharCode(47);
+    let imagePath = String(value || '').trim().replace(/\\/g, slash);
+    while (imagePath.startsWith(slash)) imagePath = imagePath.slice(1);
+    return imagePath;
+  }
+  function imageLinesToArray(value) { return String(value || '').split(/\r?\n/).map(normalizeImagePath).filter(Boolean); }
+  function nodeImages(node) { return Array.isArray(node && node.images) ? node.images.map(normalizeImagePath).filter(Boolean) : []; }
+  function setPendingImageStatus() {
+    if (!fields.imageFileStatus) return;
+    const files = state.pendingImageFiles.get(state.selectedId) || [];
+    fields.imageFileStatus.textContent = files.length ? `已选择 ${files.length} 张图片；确认生成时会写入 images 文件夹。` : '可以一次选择多张图片；确认生成新版本时会尝试写入 images 文件夹。';
+  }
   function previewScale() {
     const box = preview.getBoundingClientRect();
     return Math.min(box.width / state.previewMap.width, box.height / state.previewMap.height);
@@ -88,6 +116,32 @@
     edges.push({ from, to });
     saveDraft();
     render();
+  }
+  function updateEdgeClickStatus() {
+    if (!edgeClickStatus) return;
+    if (!state.edgeStartId) {
+      edgeClickStatus.textContent = '连线：点击第一个节点，再点击第二个节点即可创建；拖动节点仍可调整位置。';
+      edgeClickStatus.classList.remove('is-active');
+      return;
+    }
+    edgeClickStatus.textContent = `连线起点：${nodeLabel(state.edgeStartId)}。请点击目标节点；再次点击起点可取消。`;
+    edgeClickStatus.classList.add('is-active');
+  }
+  function handleNodeClick(node) {
+    state.selectedId = node.id;
+    if (!state.edgeStartId) {
+      state.edgeStartId = node.id;
+      selectNode(node.id);
+      return;
+    }
+    if (state.edgeStartId === node.id) {
+      state.edgeStartId = null;
+      selectNode(node.id);
+      return;
+    }
+    const from = state.edgeStartId;
+    state.edgeStartId = null;
+    addEdge(from, node.id);
   }
   function removeEdge(index) {
     const edges = state.draft.edges || [];
@@ -147,6 +201,7 @@
       id,
       name: baseName,
       wikiUrl: null,
+      images: [],
       originalX: selected ? finiteNumber(selected.originalX, 0) + 240 : 80,
       originalY: selected ? finiteNumber(selected.originalY, 0) + 120 : 80
     };
@@ -161,6 +216,23 @@
     state.selectedId = id;
     saveDraft();
     selectNode(id);
+  }
+  function deleteSelectedNode() {
+    const id = state.selectedId;
+    if (!id) return;
+    const node = nodeById(id);
+    if (!node) return;
+    const name = node.name || node.id;
+    if (!window.confirm(`确定删除「${name}」吗？相关连线也会一起删除。`)) return;
+    state.draft.nodes = (state.draft.nodes || []).filter((item) => item.id !== id);
+    state.draft.edges = (state.draft.edges || []).filter((edge) => edge.from !== id && edge.to !== id);
+    state.newNodeIds.delete(id);
+    state.pendingImageFiles.delete(id);
+    const nextNode = (state.draft.nodes || [])[0] || null;
+    state.selectedId = nextNode ? nextNode.id : null;
+    saveDraft();
+    if (state.selectedId) selectNode(state.selectedId);
+    else render();
   }
 
   function previewMetrics() {
@@ -206,8 +278,8 @@
     };
   }
   function filteredNodes() { const query = String(state.query || '').trim().toLowerCase(); return (state.draft.nodes || []).filter((node) => !query || String(node.name || '').toLowerCase().includes(query)); }
-  function selectNode(id) { state.selectedId = id; const node = (state.draft.nodes || []).find((item) => item.id === id); if (!node) return render(); fields.id.value = node.id || ''; fields.name.value = node.name || ''; fields.wiki.value = node.wikiUrl || ''; render(); }
-  function applyForm() { const node = (state.draft.nodes || []).find((item) => item.id === fields.id.value); if (!node) return; node.name = fields.name.value.trim(); node.wikiUrl = fields.wiki.value.trim() || null; syncNodeSize(node); saveDraft(); render(); }
+  function selectNode(id) { state.selectedId = id; const node = (state.draft.nodes || []).find((item) => item.id === id); if (!node) return render(); fields.id.value = node.id || ''; fields.name.value = node.name || ''; fields.wiki.value = node.wikiUrl || ''; if (fields.images) fields.images.value = nodeImages(node).join('\n'); if (fields.imageFiles) fields.imageFiles.value = ''; setPendingImageStatus(); render(); }
+  function applyForm() { const node = (state.draft.nodes || []).find((item) => item.id === fields.id.value); if (!node) return; node.name = fields.name.value.trim(); node.wikiUrl = fields.wiki.value.trim() || null; node.images = imageLinesToArray(fields.images && fields.images.value); syncNodeSize(node); saveDraft(); render(); }
   function download(name, content) { const blob = new Blob([content], { type: 'application/json;charset=utf-8' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = name; a.click(); URL.revokeObjectURL(url); }
   async function savePair(nameA, contentA, nameB, contentB) {
     if (typeof window.showDirectoryPicker === 'function') {
@@ -223,6 +295,33 @@
       return true;
     }
     return false;
+  }
+  async function writePendingImages(dir) {
+    const allFiles = Array.from(state.pendingImageFiles.values()).flat();
+    if (!allFiles.length) return;
+    const imagesDir = await dir.getDirectoryHandle('images', { create: true });
+    for (const file of allFiles) {
+      const handle = await imagesDir.getFileHandle(file.name, { create: true });
+      const writable = await handle.createWritable();
+      await writable.write(file);
+      await writable.close();
+    }
+    state.pendingImageFiles.clear();
+    setPendingImageStatus();
+  }
+  async function saveProjectFiles(content) {
+    if (typeof window.showDirectoryPicker !== 'function') return false;
+    const dir = await window.showDirectoryPicker({ mode: 'readwrite' });
+    const writeFile = async (name, value) => {
+      const handle = await dir.getFileHandle(name, { create: true });
+      const writable = await handle.createWritable();
+      await writable.write(value);
+      await writable.close();
+    };
+    await writeFile('data.js', content);
+    await writeFile('data.text.js', content);
+    await writePendingImages(dir);
+    return true;
   }
   function renderList() { nodeList.innerHTML = ''; filteredNodes().slice(0, 400).forEach((node) => { const item = document.createElement('button'); item.type = 'button'; item.className = 'node-item' + (node.id === state.selectedId ? ' is-active' : ''); item.textContent = node.name || node.id; item.addEventListener('click', () => selectNode(node.id)); nodeList.appendChild(item); }); }
   function renderPreview() {
@@ -249,7 +348,7 @@
     }
     for (const node of nodes.slice(0, 300)) {
       const x = finiteNumber(node.originalX, 0), y = finiteNumber(node.originalY, 0), w = finiteNumber(node.width, 96), h = finiteNumber(node.height, 54), topLeft = { x, y };
-      const group = document.createElementNS('http://www.w3.org/2000/svg', 'g'); group.setAttribute('class', 'preview-node' + (node.id === state.selectedId ? ' is-selected' : '') + (state.newNodeIds.has(node.id) ? ' is-new' : '')); group.dataset.nodeId = node.id;
+      const group = document.createElementNS('http://www.w3.org/2000/svg', 'g'); group.setAttribute('class', 'preview-node' + (node.id === state.selectedId ? ' is-selected' : '') + (node.id === state.edgeStartId ? ' is-edge-start' : '') + (state.newNodeIds.has(node.id) ? ' is-new' : '')); group.dataset.nodeId = node.id;
       const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect'); rect.setAttribute('x', topLeft.x); rect.setAttribute('y', topLeft.y); rect.setAttribute('width', w); rect.setAttribute('height', h);
       const text = document.createElementNS('http://www.w3.org/2000/svg', 'text'); text.setAttribute('x', topLeft.x + 10); text.setAttribute('y', topLeft.y + 24); text.textContent = nodeText(node);
       const note = document.createElementNS('http://www.w3.org/2000/svg', 'text'); note.setAttribute('class', 'node-note'); note.setAttribute('x', topLeft.x + 10); note.setAttribute('y', topLeft.y + h - 10); note.textContent = '拖动调整';
@@ -259,7 +358,7 @@
   function render() { renderList(); renderPreview(); syncEdgeSelects(); renderEdgeList(); }
   function findNodeByPoint(screenX, screenY) { const world = screenToWorld(screenX, screenY); const nodes = state.draft.nodes || []; for (let index = nodes.length - 1; index >= 0; index -= 1) { const node = nodes[index]; const left = finiteNumber(node.originalX, 0); const top = finiteNumber(node.originalY, 0); const right = left + finiteNumber(node.width, 96); const bottom = top + finiteNumber(node.height, 54); if (world.x >= left && world.x <= right && world.y >= top && world.y <= bottom) return node; } return null; }
   function getPointerPoint(event) { const rect = preview.getBoundingClientRect(); return { x: event.clientX - rect.left, y: event.clientY - rect.top }; }
-  function beginDrag(event, node) { const point = screenToWorld(getPointerPoint(event).x, getPointerPoint(event).y); state.dragging = node.id; state.dragOffsetX = point.x - finiteNumber(node.originalX, 0); state.dragOffsetY = point.y - finiteNumber(node.originalY, 0); preview.setPointerCapture(event.pointerId); }
+  function beginDrag(event, node) { if (!node) return; const point = screenToWorld(getPointerPoint(event).x, getPointerPoint(event).y); state.dragging = node.id; state.dragOffsetX = point.x - finiteNumber(node.originalX, 0); state.dragOffsetY = point.y - finiteNumber(node.originalY, 0); preview.setPointerCapture(event.pointerId); }
   function moveDrag(event) { if (!state.dragging) return; const node = (state.draft.nodes || []).find((item) => item.id === state.dragging); if (!node) return; const point = screenToWorld(getPointerPoint(event).x, getPointerPoint(event).y); node.originalX = Math.max(0, point.x - state.dragOffsetX); node.originalY = Math.max(0, point.y - state.dragOffsetY); saveDraft(); renderPreview(); }
   function endDrag(event) { if (!state.dragging) return; state.dragging = null; try { preview.releasePointerCapture(event.pointerId); } catch (_) {} saveDraft(); render(); }
   function beginPan(event) {
@@ -292,15 +391,32 @@
     branchSelect.value = state.branch; state.draft = loadDraft() || getData(); syncAllNodeSize(); const first = state.draft.nodes && state.draft.nodes[0]; if (first) state.selectedId = first.id; if (state.selectedId) selectNode(state.selectedId); render();
     branchSelect.addEventListener('change', () => { state.branch = branchSelect.value; }); nodeSearch.addEventListener('input', () => { state.query = nodeSearch.value; renderList(); }); form.addEventListener('submit', (event) => { event.preventDefault(); applyForm(); });
     addNodeButton.addEventListener('click', () => { createNode(); });
+    deleteNodeButton.addEventListener('click', () => { deleteSelectedNode(); });
+    if (fields.imageFiles) fields.imageFiles.addEventListener('change', () => {
+      const node = nodeById(state.selectedId);
+      if (!node) return;
+      const files = Array.from(fields.imageFiles.files || []);
+      if (!files.length) {
+        state.pendingImageFiles.delete(node.id);
+        setPendingImageStatus();
+        return;
+      }
+      state.pendingImageFiles.set(node.id, files);
+      const existing = new Set(imageLinesToArray(fields.images && fields.images.value));
+      for (const file of files) existing.add(`images/${file.name}`);
+      if (fields.images) fields.images.value = Array.from(existing).join('\n');
+      applyForm();
+      setPendingImageStatus();
+    });
     addEdgeButton.addEventListener('click', () => { addEdge(); });
     edgeFromSelect.addEventListener('change', () => { if (edgeToSelect.value === edgeFromSelect.value) { const alt = (state.draft.nodes || []).find((node) => node.id !== edgeFromSelect.value); if (alt) edgeToSelect.value = alt.id; } });
-    document.getElementById('reset-draft').addEventListener('click', () => { state.draft = getData(); clearNewNodeMarks(); syncAllNodeSize(); state.selectedId = state.draft.nodes[0] && state.draft.nodes[0].id; saveDraft(); render(); });
+    document.getElementById('reset-draft').addEventListener('click', () => { state.draft = getData(); clearNewNodeMarks(); state.edgeStartId = null; syncAllNodeSize(); state.selectedId = state.draft.nodes[0] && state.draft.nodes[0].id; saveDraft(); render(); updateEdgeClickStatus(); });
     document.getElementById('export-draft').addEventListener('click', () => download('wt-tree-draft.json', JSON.stringify(state.draft, null, 2)));
     document.getElementById('commit-draft').addEventListener('click', async () => {
       const committed = clone(state.draft);
       const content = 'globalThis.WT_TREE_DATA = Object.freeze(' + JSON.stringify(committed) + ');';
       clearNewNodeMarks();
-      const wroteToFolder = await savePair('data.js', content, 'data.text.js', content);
+      const wroteToFolder = await saveProjectFiles(content);
       if (!wroteToFolder) {
         download('data.js', content);
         download('data.text.js', content);
@@ -310,10 +426,54 @@
     previewZoomOut.addEventListener('click', () => { state.previewZoom = Math.max(0.4, Math.round((state.previewZoom - 0.15) * 100) / 100); renderPreview(); });
     previewZoomReset.addEventListener('click', () => { state.previewZoom = 1; renderPreview(); });
     preview.addEventListener('wheel', (event) => { event.preventDefault(); state.previewZoom = Math.max(0.4, Math.min(40, Math.round((state.previewZoom + (event.deltaY < 0 ? 0.1 : -0.1)) * 100) / 100)); renderPreview(); }, { passive: false });
-    preview.addEventListener('pointerdown', (event) => { const point = getPointerPoint(event); const target = findNodeByPoint(point.x, point.y); if (target) { state.selectedId = target.id; selectNode(target.id); beginDrag(event, target); return; } beginPan(event); });
-    preview.addEventListener('pointermove', (event) => { moveDrag(event); movePan(event); });
-    preview.addEventListener('pointerup', (event) => { endDrag(event); endPan(event); });
-    preview.addEventListener('pointercancel', (event) => { endDrag(event); endPan(event); });
+    preview.addEventListener('pointerdown', (event) => {
+      const point = getPointerPoint(event);
+      const target = findNodeByPoint(point.x, point.y);
+      if (target) {
+        state.pointerNodeId = target.id;
+        state.pointerStartX = point.x;
+        state.pointerStartY = point.y;
+        state.pointerMoved = false;
+        state.selectedId = target.id;
+        selectNode(target.id);
+        preview.setPointerCapture(event.pointerId);
+        return;
+      }
+      beginPan(event);
+    });
+    preview.addEventListener('pointermove', (event) => {
+      if (state.pointerNodeId && !state.dragging) {
+        const point = getPointerPoint(event);
+        const distance = Math.hypot(point.x - state.pointerStartX, point.y - state.pointerStartY);
+        if (distance > 5) {
+          state.pointerMoved = true;
+          beginDrag(event, nodeById(state.pointerNodeId));
+        }
+      }
+      moveDrag(event);
+      movePan(event);
+    });
+    preview.addEventListener('pointerup', (event) => {
+      if (state.pointerNodeId) {
+        const node = nodeById(state.pointerNodeId);
+        const wasClick = !state.pointerMoved && !state.dragging;
+        state.pointerNodeId = null;
+        if (wasClick && node) handleNodeClick(node);
+        if (state.dragging) endDrag(event);
+        else {
+          try { preview.releasePointerCapture(event.pointerId); } catch (_) {}
+          updateEdgeClickStatus();
+        }
+      } else {
+        endPan(event);
+      }
+    });
+    preview.addEventListener('pointercancel', (event) => {
+      state.pointerNodeId = null;
+      endDrag(event);
+      endPan(event);
+    });
+    updateEdgeClickStatus();
   }
   init();
 }());
