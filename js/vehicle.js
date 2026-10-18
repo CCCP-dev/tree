@@ -19,7 +19,7 @@
     if (element) element.hidden = hidden;
   }
 
-  function renderRelatedList(document, container, nodes, core, emptyMessage) {
+  function renderRelatedList(document, container, nodes, currentId, data, core, emptyMessage) {
     while (container.firstChild) container.removeChild(container.firstChild);
     if (!nodes.length) {
       const empty = document.createElement('p');
@@ -33,7 +33,15 @@
       const link = document.createElement('a');
       link.className = 'related-card';
       link.href = core.vehicleHref(node.id);
-      link.textContent = String(node.name || node.id);
+      const name = document.createElement('span');
+      name.className = 'related-card__name';
+      name.textContent = String(node.name || node.id);
+      const index = core.buildIndex(data);
+      const edge = core.getEdge(index, currentId, node.id) || core.getEdge(index, node.id, currentId);
+      const distance = document.createElement('span');
+      distance.className = 'related-card__distance';
+      distance.textContent = `Y 距离：${core.formatDistance(core.getEdgeDistance(edge, data))}`;
+      link.append(name, distance);
       container.append(link);
     }
   }
@@ -137,8 +145,8 @@
     }
 
     renderVehicleImages(document, elements, model.node);
-    renderRelatedList(document, elements.previous, model.previous, core, EMPTY_PREVIOUS_MESSAGE);
-    renderRelatedList(document, elements.next, model.next, core, EMPTY_NEXT_MESSAGE);
+    renderRelatedList(document, elements.previous, model.previous, model.node.id, root.WT_TREE_DATA, core, EMPTY_PREVIOUS_MESSAGE);
+    renderRelatedList(document, elements.next, model.next, model.node.id, root.WT_TREE_DATA, core, EMPTY_NEXT_MESSAGE);
     return model;
   }
 
