@@ -35,6 +35,7 @@
   const deleteNodeButton = document.getElementById('delete-node');
   const edgeFromSelect = document.getElementById('edge-from');
   const edgeToSelect = document.getElementById('edge-to');
+  const edgeDistance = document.getElementById('edge-distance');
   const addEdgeButton = document.getElementById('add-edge');
   const edgeList = document.getElementById('edge-list');
   const previewZoomIn = document.getElementById('preview-zoom-in');
@@ -82,6 +83,34 @@
   function nodeById(id) { return (state.draft.nodes || []).find((node) => node.id === id) || null; }
   function nodeLabel(id) { const node = nodeById(id); return node ? (node.name || node.id) : id; }
   function edgeSignature(edge) { return `${edge.from}::${edge.to}`; }
+  function edgeForForm() { return (state.draft.edges || []).find((edge) => edge.from === edgeFromSelect.value && edge.to === edgeToSelect.value) || null; }
+  function calculatedEdgeDistance(edge) {
+    if (!edge || !globalThis.WTCore || typeof globalThis.WTCore.getEdgeDistance !== 'function') return null;
+    return globalThis.WTCore.getEdgeDistance(edge, state.draft);
+  }
+  function formatEdgeDistance(value) {
+    return globalThis.WTCore && typeof globalThis.WTCore.formatDistance === 'function' ? globalThis.WTCore.formatDistance(value) : (Number.isFinite(value) ? String(Number(value.toFixed(2))) : '—');
+  }
+  function syncEdgeDistanceField() {
+    if (!edgeDistance) return;
+    const edge = edgeForForm();
+    edgeDistance.value = edge && Number.isFinite(edge.distance) ? edge.distance : '';
+    const calculated = calculatedEdgeDistance(edge || { from: edgeFromSelect.value, to: edgeToSelect.value });
+    edgeDistance.placeholder = calculated === null ? '自动计算' : `自动：${formatEdgeDistance(calculated)}`;
+  }
+  function applyEdgeDistance() {
+    const edge = edgeForForm();
+    if (!edge || !edgeDistance) return;
+    const value = edgeDistance.value.trim();
+    if (!value) delete edge.distance;
+    else {
+      const distance = Number(value);
+      if (!Number.isFinite(distance) || distance < 0) return;
+      edge.distance = distance;
+    }
+    saveDraft();
+    render();
+  }
   function relatedEdgesForSelected() {
     const edges = state.draft.edges || [];
     if (!state.selectedId) return edges;
@@ -166,10 +195,11 @@
       const label = document.createElement('button');
       label.type = 'button';
       label.className = 'edge-item';
-      label.textContent = `${nodeLabel(edge.from)} → ${nodeLabel(edge.to)}`;
+      label.textContent = `${nodeLabel(edge.from)} → ${nodeLabel(edge.to)} · Y 距离 ${formatEdgeDistance(calculatedEdgeDistance(edge))}${Number.isFinite(edge.distance) ? '（手动）' : ''}`;
       label.addEventListener('click', () => {
         if (nodeById(edge.from)) edgeFromSelect.value = edge.from;
         if (nodeById(edge.to)) edgeToSelect.value = edge.to;
+        syncEdgeDistanceField();
       });
       const remove = document.createElement('button');
       remove.type = 'button';
@@ -355,7 +385,7 @@
       group.append(rect, text, note); previewTransform.appendChild(group);
     }
   }
-  function render() { renderList(); renderPreview(); syncEdgeSelects(); renderEdgeList(); }
+  function render() { renderList(); renderPreview(); syncEdgeSelects(); syncEdgeDistanceField(); renderEdgeList(); }
   function findNodeByPoint(screenX, screenY) { const world = screenToWorld(screenX, screenY); const nodes = state.draft.nodes || []; for (let index = nodes.length - 1; index >= 0; index -= 1) { const node = nodes[index]; const left = finiteNumber(node.originalX, 0); const top = finiteNumber(node.originalY, 0); const right = left + finiteNumber(node.width, 96); const bottom = top + finiteNumber(node.height, 54); if (world.x >= left && world.x <= right && world.y >= top && world.y <= bottom) return node; } return null; }
   function getPointerPoint(event) { const rect = preview.getBoundingClientRect(); return { x: event.clientX - rect.left, y: event.clientY - rect.top }; }
   function beginDrag(event, node) { if (!node) return; const point = screenToWorld(getPointerPoint(event).x, getPointerPoint(event).y); state.dragging = node.id; state.dragOffsetX = point.x - finiteNumber(node.originalX, 0); state.dragOffsetY = point.y - finiteNumber(node.originalY, 0); preview.setPointerCapture(event.pointerId); }
@@ -409,7 +439,9 @@
       setPendingImageStatus();
     });
     addEdgeButton.addEventListener('click', () => { addEdge(); });
-    edgeFromSelect.addEventListener('change', () => { if (edgeToSelect.value === edgeFromSelect.value) { const alt = (state.draft.nodes || []).find((node) => node.id !== edgeFromSelect.value); if (alt) edgeToSelect.value = alt.id; } });
+    edgeFromSelect.addEventListener('change', () => { if (edgeToSelect.value === edgeFromSelect.value) { const alt = (state.draft.nodes || []).find((node) => node.id !== edgeFromSelect.value); if (alt) edgeToSelect.value = alt.id; } syncEdgeDistanceField(); });
+    edgeToSelect.addEventListener('change', () => { syncEdgeDistanceField(); });
+    if (edgeDistance) edgeDistance.addEventListener('change', applyEdgeDistance);
     document.getElementById('reset-draft').addEventListener('click', () => { state.draft = getData(); clearNewNodeMarks(); state.edgeStartId = null; syncAllNodeSize(); state.selectedId = state.draft.nodes[0] && state.draft.nodes[0].id; saveDraft(); render(); updateEdgeClickStatus(); });
     document.getElementById('export-draft').addEventListener('click', () => download('wt-tree-draft.json', JSON.stringify(state.draft, null, 2)));
     document.getElementById('commit-draft').addEventListener('click', async () => {
