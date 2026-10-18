@@ -107,5 +107,6 @@
     'https://wiki.warthunder.com/unit/ussr_t_50': 'images/120_ussr_t_50.jpg',
     'https://wiki.warthunder.com/unit/germ_stug_III_ausf_A': 'images/122_germ_stug_iii_ausf_a.jpg',
     'https://wiki.warthunder.com/unit/germ_panzerjager_nashorn': 'images/123_germ_panzerjager_nashorn.jpg',
+    'https://wiki.warthunder.com/unit/us_m8_scott': 'images/m8hmc.jpg',
   });
 }));
