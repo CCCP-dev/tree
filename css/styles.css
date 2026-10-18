@@ -197,6 +197,8 @@ body {
 .related-card { display: block; padding: 0.9rem 1rem; color: var(--color-text); text-decoration: none; border: 1px solid var(--color-border); border-left: 3px solid var(--color-gold); background: rgb(3 9 19 / 62%); transition: transform 160ms ease, border-color 160ms ease, background 160ms ease; }
 .related-card:hover, .related-card:focus-visible { border-color: var(--color-gold-soft); background: var(--color-slate-bright); transform: translateX(3px); }
 .related-card:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.related-card__name, .related-card__distance { display: block; }
+.related-card__distance { margin-top: 0.35rem; color: var(--color-muted); font-size: 0.82rem; }
 .relation-empty { margin: 0; padding: 0.9rem 1rem; color: var(--color-muted); border: 1px dashed var(--color-border); }
 .not-found { margin-top: clamp(2rem, 10vw, 7rem); padding: clamp(1.5rem, 5vw, 3rem); border-top: 4px solid var(--color-danger); }
 .not-found h1 { margin: 0.4rem 0 0.8rem; font-size: clamp(1.8rem, 6vw, 3rem); }
