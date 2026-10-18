@@ -63,6 +63,36 @@
     };
   }
 
+  function findNodeByName(data, name) {
+    const normalized = String(name || '').trim().toLocaleLowerCase('zh-CN');
+    return (data && data.nodes || []).find((node) => String(node.name || '').trim().toLocaleLowerCase('zh-CN') === normalized) || null;
+  }
+
+  function getDistanceUnit(data) {
+    const bt5 = findNodeByName(data, 'bt5');
+    const bt7 = findNodeByName(data, 'bt7');
+    const unit = bt5 && bt7 ? Math.abs(numberOr(bt5.originalY, 0) - numberOr(bt7.originalY, 0)) : 0;
+    return unit > 0 ? unit : 1;
+  }
+
+  function getEdge(index, from, to) {
+    return (index && index.data && index.data.edges || []).find((edge) => edge.from === from && edge.to === to) || null;
+  }
+
+  function getEdgeDistance(edge, data) {
+    if (!edge || !data) return null;
+    if (Number.isFinite(edge.distance) && edge.distance >= 0) return edge.distance;
+    const from = (data.nodes || []).find((node) => node.id === edge.from);
+    const to = (data.nodes || []).find((node) => node.id === edge.to);
+    if (!from || !to) return null;
+    return Math.abs(numberOr(from.originalY, 0) - numberOr(to.originalY, 0)) / getDistanceUnit(data);
+  }
+
+  function formatDistance(value) {
+    if (!Number.isFinite(value)) return '—';
+    return String(Number(value.toFixed(2)));
+  }
+
   function searchNodes(index, query) {
     const normalized = String(query || '').trim().toLocaleLowerCase('zh-CN');
     if (!normalized) return [];
@@ -177,5 +207,5 @@
     return '载具.html?id=' + encodeURIComponent(id);
   }
 
-  return { buildIndex, getRelations, searchNodes, layoutGraph, vehicleHref };
+  return { buildIndex, getRelations, getEdge, getEdgeDistance, formatDistance, searchNodes, layoutGraph, vehicleHref };
 }));
